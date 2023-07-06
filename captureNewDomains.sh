@@ -2,10 +2,10 @@
 
 #Create Directory if missing
 echo "Creating Directory if missing"
-mkdir /home/pi/addtlPiholeAdlist
+mkdir /home/$USER/addtlPiholeAdlist
 
-echo "Navigating to Directory /home/pi/addtlPiholeAdlist"
-cd /home/pi/addtlPiholeAdlist
+echo "Navigating to Directory /home/echo "$USER"/addtlPiholeAdlist"
+cd /home/echo "$USER"/addtlPiholeAdlist
 
 echo "Clone the repo"
 #Clone the repo
@@ -19,10 +19,10 @@ git pull
 
 echo "Navigate to the directory /StreamingServiceDomains/services"
 #Navigate to the directory
-cd /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/
+cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/
 
 # Set the directory path
-directory="/home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/"
+directory="/home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/"
 echo "Directory to process: $directory"
 
 
@@ -35,7 +35,7 @@ do
         filename=$(basename "$file")
         echo "Current file name: $filename"
         echo "Get the domains from the pihole database for : $filename"
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%$filename%';"  >>  /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
         echo "Sort the file and get only unique entries  for : $filename"
         sort -o $filename -u $filename
 
@@ -44,10 +44,10 @@ done
 
 
 # echo "Get the domains from the pihole database"
-# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
 # echo "Sort the file and get only unique entries"
-# sort -o /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+# sort -o /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
 
 echo "Get the domains from the pihole database"
@@ -55,7 +55,7 @@ echo "Get the domains from the pihole database"
 cat ./* > ../combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
-cd /home/pi/addtlPiholeAdlist/StreamingServiceDomains
+cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains
 
 echo "Current Dir: $PWD"
 
