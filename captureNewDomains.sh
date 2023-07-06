@@ -70,5 +70,5 @@ git status
 git config --global user.email "dilipprasad87@gmail.com"
 git config --global user.name "Automated Script"
 git commit -m "Update Domains"
-echo "Token:$STREAMINGSERVICEREPO_GITHUBTOKEN"
-git push https://dilipprasad87@gmail.com:$STREAMINGSERVICEREPO_GITHUBTOKEN@github.com/dilipprasad/StreamingServiceDomains.git
+git push
+echo "Pushed latest domain list successfully"
