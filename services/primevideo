@@ -117,6 +117,7 @@ prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
 read.amazon.in
+r.eu.primevideo.com
 s3.amazonaws.com
 s3-ap-northeast-1.amazonaws.com
 s3-ap-south-1.amazonaws.com
@@ -150,4 +151,5 @@ ws-na.amazon-adsystem.com
 www.amazon.com
 www.amazon.de
 www.amazon.in
+www.primevideo.com
 z-na.associates-amazon.com
