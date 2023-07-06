@@ -57,7 +57,7 @@ done
 
 echo "Get the domains from the pihole database"
 #Contact and get a single list
-cat ./* > ../combinedlist.txt
+cat ./* > "$USER"/addtlPiholeAdlist/StreamingServiceDomains/combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
 cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains
@@ -74,7 +74,7 @@ echo "Commit and push git changes"
 git add .
 git status
 git config --global user.email "dilipprasad87@gmail.com"
-git config --global user.name "Automated Script"
+git config --global user.name "dilipprasad"
 git commit -m "Update Domains"
 git push
 echo "Pushed latest domain list successfully"
