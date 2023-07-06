@@ -1,4 +1,4 @@
-9cache.com
+
 9gag.com
 aan.amazon.com
 aan.amazon.in
@@ -77,28 +77,45 @@ ap-southeast-1.ccs.amazonaws.com
 arcus-uswest.amazon.com
 assets.pinterest.com
 atv-ax25fykix4d0b-xiaomi-dangal-mitvaxso0-xiaomidangreleasekeys.api.amazonvideo.com
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 azeus1-client-s.gateway.messenger.live.com
 battle.net
 bere.al
 bereal.com
 b.i.instagram.com
+#!/bin/bash
 bitspilani-alb-1421899025.ap-south-1.elb.amazonaws.com
 blizzard.com
 brand-messenger.app.khoros.com
 brighteon.social
 b-www.facebook.com
 c.amazon-adsystem.com
+cat ./* > ../combinedlist.txt
+cat * >> ../combined.txt
+cd /home/echo "$USER"/addtlPiholeAdlist
+cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains
+cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/
 cdninstagram.com
+cd StreamingServiceDomains/
 chat-e2ee-mini.facebook.com
 chat.xboxlive.com
+    # Check if the file is a regular file
 c.im
+#Clone the repo
 cloudfront-labs.amazonaws.com
 c.media-amazon.com
 cognito-identity.ap-northeast-1.amazonaws.com
+Command to combine all files to 1 file
+#Commit and push git changes
 completion.amazon.com
 connect.facebook.net
 console.aws.amazon.com
+#Contact and get a single list
+copies of the Software, and to permit persons to whom the Software is
+copies or substantial portions of the Software.
+Copyright (c) 2022 NextDNS
 counter.social
+#Create Directory if missing
 cz15y20kg2.execute-api.us-east-1.amazonaws.com
 dailymotion.com
 data.amazon.com
@@ -112,6 +129,7 @@ device.auth.xboxlive.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 dgw.c10r.facebook.com
+directory="/home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/"
 discordapp.com
 discordapp.net
 discord.com
@@ -122,6 +140,8 @@ disneyplus.disney.co.jp
 disney-plus.net
 dmcdn.net
 dm-event.net
+do
+done
 douyin.com # https://github.com/nextdns/services/issues/2
 dp-gw-na.amazon.com
 dssott.com
@@ -156,6 +176,25 @@ ebaystatic.com
 ebay-us.com
 ec2-52-23-111-175.compute-1.amazonaws.com
 ec2.us-east-1.amazonaws.com
+echo "Clone the repo"
+echo "Commit and push git changes"
+echo "Creating Directory if missing"
+echo "Current Dir: $PWD"
+        echo "Current file name: $filename"
+echo "Directory to process: $directory"
+# echo "Get the domains from the pihole database"
+echo "Get the domains from the pihole database"
+        echo "Get the domains from the pihole database for : $filename"
+echo "Navigate to the directory /StreamingServiceDomains"
+echo "Navigate to the directory /StreamingServiceDomains/services"
+echo "Navigate to the parent directory /StreamingServiceDomains"
+echo "Navigating to Directory /home/echo "$USER"/addtlPiholeAdlist"
+echo "Pull if repo already exists"
+echo "Pushed latest domain list successfully"9cache.com
+# echo "Sort the file and get only unique entries"
+echo "Sort the file and get only unique entries"
+        echo "Sort the file and get only unique entries  for : $filename"
+        # Echo the file name
 edge-chat.facebook.com
 edge-chat.instagram.com
 edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
@@ -169,18 +208,31 @@ fb.me
 fedibird.com
 feelinsonice.appspot.com
 feelinsonice-hrd.appspot.com
+    fi
+        filename=$(basename "$file")
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 fls-eu.amazon.com
 fls-eu.amazon.in
 fls-na.amazon.com
 f.media-amazon.com
+for file in "$directory"/*
 fosstodon.org
 fresnel.vimeocdn.com
+furnished to do so, subject to the following conditions:
 f.vimeocdn.com
 gateway.facebook.com
 gateway.instagram.com
 gc2.jp
+git add .
+git clone https://github.com/dilipprasad/StreamingServiceDomains.git
+git commit -m "Update Domains"
+git config --global user.email "dilipprasad87@gmail.com"
+git config --global user.name "Automated Script"
 github-cloud.s3.amazonaws.com
 github-production-user-asset-6210df.s3.amazonaws.com
+git pull
+git push
+git status
 global.ccs.amazonaws.com
 global.console.aws.amazon.com
 googlevideo.com
@@ -208,6 +260,7 @@ idmb-app-chat-global-xiaomi09-1256654958.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi10-407281533.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi-1108233833.ap-south-1.elb.amazonaws.com
 i-fallback.instagram.com
+    if [[ -f "$file" ]]; then
 i.imgur.com
 i.instagram.com
 images-eu.ssl-images-amazon.com
@@ -215,6 +268,7 @@ images-fe.ssl-images-amazon.com
 images-na.ssl-images-amazon.com
 imgur.com
 img.youtube.com
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 infosec.exchange
 instagram.c10r.facebook.com
 instagram.com
@@ -222,6 +276,7 @@ instagram.fmaa1-1.fna.fbcdn.net
 instagram.fmaa1-2.fna.fbcdn.net
 instagram.fmaa1-3.fna.fbcdn.net
 instagram.fmaa1-4.fna.fbcdn.net
+in the Software without restriction, including without limitation the rights
 ios-anycast.prod.ftl.netflix.com
 ios.ngp.prod.cloud.netflix.com
 ios.prod.cloud.netflix.com
@@ -237,10 +292,12 @@ kids.youtube.com
 kolektiva.social
 kqd06oflxl.execute-api.eu-west-1.amazonaws.com
 leagueoflegends.com
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 lithium.facebook.com
 loforo.com
 lol.riotgames.com
 lookaside.facebook.com
+# Loop through each file in the directory
 mads.amazon-adsystem.com
 mads-eu.amazon.com
 mag-eu.amazon.com
@@ -273,6 +330,8 @@ m.facebook.com
 mindly.social
 minecraft.net
 minecraftservices.com
+MIT License
+mkdir /home/$USER/addtlPiholeAdlist
 m.media-amazon.com
 mobile-ixanycast.ftl.netflix.com
 mobile.prod.dradis.netflix.com
@@ -293,6 +352,7 @@ music.youtube.com
 na12-binary-objects.s3.amazonaws.com
 nalandab2b-prod-elb01-1706732909.ap-south-1.elb.amazonaws.com
 nalanda-prod-assets.s3.ap-south-1.amazonaws.com
+#Navigate to the directory
 nerdculture.de
 *.netflix.com
 netflix.com
@@ -310,10 +370,13 @@ nrdp.prod.ftl.netflix.com
 ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
 ocsp.rootca1.amazontrust.com
+of this software and associated documentation files (the "Software"), to deal
 ohai.social
 origin-amazonpay.amazon.in
 origin-completion.amazon.in
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 pawoo.net
+Permission is hereby granted, free of charge, to any person obtaining a copy
 phd.aws.amazon.com
 pinimg.com
 pin.it
@@ -381,6 +444,7 @@ probe.twitter.com
 prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
+#Pull if repo already exists
 push.prod.netflix.com
 qoto.org
 rbxcdn.com
@@ -404,6 +468,7 @@ scontent.cdninstagram.com
 sc-prod.net
 search-api-disney.bamgrid.com
 secure.netflix.com
+# Set the directory path
 sfba.social
 siege-amazon.com
 signaler-pa.youtube.com
@@ -411,7 +476,12 @@ signin.aws.amazon.com
 snapads.com
 snapchat.com
 snap-dev.net
+SOFTWARE.
 solucia.s3.us-east-2.amazonaws.com
+        sort -o $filename -u $filename
+sort -o combinedlist.txt -u combinedlist.txt
+# sort -o /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+#Sort the file and get only unique entries
 spns-kong-alb-1531584902.ap-southeast-1.elb.amazonaws.com
 *.ssl-images-amazon.com
 ssl-images-amazon.com
@@ -428,6 +498,9 @@ steampowered.com
 steamstatic.com
 steamstore-a.akamaihd.net
 steamusercontent-a.akamaihd.net
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%-$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%.$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 suggestqueries-clients6.youtube.com
 support.console.aws.amazon.com
 support.us-east-1.amazonaws.com
@@ -438,7 +511,9 @@ talent500-public-prod-cb.s3.amazonaws.com
 talent500-public-prod-cb.s3.ap-south-1.amazonaws.com
 t.co
 techhub.social
+The above copyright notice and this permission notice shall be included in all
 thepiratebay.org
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 threeplr-abdx8mxr6q3e.api.amazonvideo.com
 tiktokcdn.com
 tiktokcdn.com.akamaized.net
@@ -458,6 +533,7 @@ tindersparks.com
 title.auth.xboxlive.com
 title.mgt.xboxlive.com
 toot.community
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 tp.c95e7e602-frontier.amazon.in
 transient-eu.amazon.com
 troet.cafe
