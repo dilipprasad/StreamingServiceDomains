@@ -38,8 +38,8 @@ do
         filename=$(basename "$file")
         echo "Current file name: $filename"
         echo "Get the domains from the pihole database for : $filename"
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%.$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%-$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%.$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%-$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
         echo "Sort the file and get only unique entries  for : $filename"
         sort -o $filename -u $filename
 
@@ -48,10 +48,10 @@ done
 
 
 # echo "Get the domains from the pihole database"
-# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
 # echo "Sort the file and get only unique entries"
-# sort -o /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+# sort -o /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
 
 echo "Get the domains from the pihole database"
