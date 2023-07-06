@@ -14,7 +14,7 @@ echo "Navigate to the directory /StreamingServiceDomains"
 cd StreamingServiceDomains/
 
 #Change to development branch
-echo
+echo "Changing to development branch"
 
 #Pull if repo already exists
 echo "Pull if repo already exists"
@@ -56,7 +56,7 @@ done
 
 echo "Get the domains from the pihole database"
 #Contact and get a single list
-cat ./* > /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/combinedlist.txt
+cat *.* > /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
 cd /home/$USER/addtlPiholeAdlist/StreamingServiceDomains
