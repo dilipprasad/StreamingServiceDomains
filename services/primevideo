@@ -1,2 +1,8 @@
 primevideo.com
 amazonvideo.com
+prime-video.amazon.dev
+api.amazon.in
+*.api.amazonvideo.com
+*.api.amazon.in
+*.ssl-images-amazon.com
+*.amazonaws.com
