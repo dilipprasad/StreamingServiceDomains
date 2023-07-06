@@ -15,6 +15,7 @@ cd StreamingServiceDomains/
 
 #Change to development branch
 echo "Changing to development branch"
+git checkout development
 
 #Pull if repo already exists
 echo "Pull if repo already exists"
