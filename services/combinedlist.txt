@@ -1,4 +1,3 @@
-#
 9cache.com
 9gag.com
 aan.amazon.com
@@ -64,10 +63,8 @@ atv-ax25fykix4d0b-xiaomi-dangal-mitvaxso0-xiaomidangreleasekeys.api.amazonvideo.
 battle.net
 bere.al
 bereal.com
-#!/bin/bash
 bitspilani-alb-1421899025.ap-south-1.elb.amazonaws.com
 blizzard.com
-# block-distractions.sh
 brighteon.social
 b-www.facebook.com
 c.amazon-adsystem.com
@@ -137,13 +134,10 @@ ebaystatic.com
 ebay-us.com
 ec2-52-23-111-175.compute-1.amazonaws.com
 ec2.us-east-1.amazonaws.com
-echo 'blocking distractions...'
-echo 'unblocking distractions...'
 edge-chat.facebook.com
 edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
 edge-skype-com.s-0001.s-msedge.net
 epicgames.com
-export PATH="$PATH:/usr/sbin:/usr/local/bin/"
 ext-twitch.tv
 fb.com
 fb.me
@@ -262,7 +256,6 @@ origin-amazonpay.amazon.in
 origin-completion.amazon.in
 pawoo.net
 phd.aws.amazon.com
-pihole restartdns
 pinimg.com
 pin.it
 pinpoint.ap-northeast-1.amazonaws.com
@@ -358,8 +351,6 @@ snapchat.com
 snap-dev.net
 solucia.s3.us-east-2.amazonaws.com
 spns-kong-alb-1531584902.ap-southeast-1.elb.amazonaws.com
-sqlite3 /etc/pihole/gravity.db "update adlist set enabled = false where id = 5;"
-sqlite3 /etc/pihole/gravity.db "update adlist set enabled = true where id = 5;"
 ssl-images-amazon.com
 static.siege-amazon.com
 steamcdn-a.akamaihd.net
@@ -416,7 +407,6 @@ unagi.amazon.com
 unagi.amazon.in
 unagi-eu.amazon.com
 unagi-na.amazon.com
-# unblock-distractions.sh
 universeodon.com
 us-east-1.console.aws.amazon.com
 userapi.com
