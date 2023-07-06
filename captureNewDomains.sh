@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Create Directory if missing
 echo "Creating Directory if missing"
 mkdir /home/pi/addtlPiholeAdlist
@@ -19,11 +21,32 @@ echo "Navigate to the directory /StreamingServiceDomains/services"
 #Navigate to the directory
 cd /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/
 
-echo "Get the domains from the pihole database"
-sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+# Set the directory path
+directory="/home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/"
+echo "Directory to process: $directory"
 
-echo "Sort the file and get only unique entries"
-sort -o /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+
+# Loop through each file in the directory
+for file in "$directory"/*
+do
+    # Check if the file is a regular file
+    if [[ -f "$file" ]]; then
+        # Echo the file name
+        echo "Current file: $file"
+        echo "Get the domains from the pihole database for : $file"
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%$file%';"  >>  /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/$file
+        echo "Sort the file and get only unique entries  for : $file"
+        sort -o $file -u $file
+
+    fi
+done
+
+
+# echo "Get the domains from the pihole database"
+# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+
+# echo "Sort the file and get only unique entries"
+# sort -o /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
 
 echo "Get the domains from the pihole database"
