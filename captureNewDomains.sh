@@ -13,6 +13,10 @@ git clone https://github.com/dilipprasad/StreamingServiceDomains.git
 echo "Navigate to the directory /StreamingServiceDomains"
 cd StreamingServiceDomains/
 
+#Change to development branch
+echo "Change to development branch"
+git checkout development
+
 #Pull if repo already exists
 echo "Pull if repo already exists"
 git pull
