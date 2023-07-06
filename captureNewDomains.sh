@@ -35,7 +35,8 @@ do
         filename=$(basename "$file")
         echo "Current file name: $filename"
         echo "Get the domains from the pihole database for : $filename"
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%.$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%-$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
         echo "Sort the file and get only unique entries  for : $filename"
         sort -o $filename -u $filename
 
