@@ -27,7 +27,7 @@ echo "Directory to process: $directory"
 
 
 # Loop through each file in the directory
-for file in "$directory"*
+for file in "$directory"/*
 do
     # Check if the file is a regular file
     if [[ -f "$file" ]]; then
