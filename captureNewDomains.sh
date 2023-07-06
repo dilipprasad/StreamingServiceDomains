@@ -32,11 +32,12 @@ do
     # Check if the file is a regular file
     if [[ -f "$file" ]]; then
         # Echo the file name
-        echo "Current file: $file"
-        echo "Get the domains from the pihole database for : $file"
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%$file%';"  >>  /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/$file
-        echo "Sort the file and get only unique entries  for : $file"
-        sort -o $file -u $file
+        filename=$(basename "$file")
+        echo "Current file name: $filename"
+        echo "Get the domains from the pihole database for : $filename"
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%$filename%';"  >>  /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        echo "Sort the file and get only unique entries  for : $filename"
+        sort -o $filename -u $filename
 
     fi
 done
