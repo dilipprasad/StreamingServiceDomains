@@ -25,14 +25,13 @@ sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries W
 echo "Sort the file and get only unique entries"
 sort -o /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/pi/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
-echo "Navigate to the parent directory /StreamingServiceDomains"
-cd /home/pi/addtlPiholeAdlist/StreamingServiceDomains
 
 echo "Get the domains from the pihole database"
 #Contact and get a single list
 cat ./* > ../combinedlist.txt
 
-echo "Navigate to the directory /home/pi/addtlPiholeAdlist"
+echo "Navigate to the parent directory /StreamingServiceDomains"
+cd /home/pi/addtlPiholeAdlist/StreamingServiceDomains
 
 echo "Current Dir: $PWD"
 
@@ -40,10 +39,11 @@ echo "Sort the file and get only unique entries"
 #Sort the file and get only unique entries
 sort -o combinedlist.txt -u combinedlist.txt
 
-
+echo "Current Dir: $PWD"
 echo "Commit and push git changes"
 #Commit and push git changes
 git add .
+git status
 git commit -m "Update Domains"
 echo "Token:$STREAMINGSERVICEREPO_GITHUBTOKEN"
 git push https://dilipprasad87@gmail.com:$STREAMINGSERVICEREPO_GITHUBTOKEN@github.com/dilipprasad/StreamingServiceDomains.git
