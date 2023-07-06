@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 android-appboot.netflix.com
 android.prod.cloud.netflix.com
 android.prod.ftl.netflix.com
@@ -15,12 +16,15 @@ ios.prod.http1.netflix.com
 mobile-ixanycast.ftl.netflix.com
 mobile.prod.dradis.netflix.com
 *.netflix.com
+=======
+>>>>>>> parent of c9acf78 (Merge branch 'main' of https://github.com/dilipprasad/StreamingServiceDomains into main)
 netflix.com
 netflix.net
 nflxext.com
 nflximg.net
 nflxso.net
 nflxvideo.net
+<<<<<<< HEAD
 nrdp52-appboot.netflix.com
 nrdp-ipv6.prod.ftl.netflix.com
 nrdp.nccp.netflix.com
@@ -33,3 +37,6 @@ uiboot.netflix.com
 www.dradis.netflix.com
 www.netflix.com
 xiaomi-tv-1.prod.partner.netflix.net
+=======
+*.netflix.com
+>>>>>>> parent of c9acf78 (Merge branch 'main' of https://github.com/dilipprasad/StreamingServiceDomains into main)

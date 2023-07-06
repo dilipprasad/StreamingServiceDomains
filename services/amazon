@@ -24,7 +24,6 @@ amazon.com.au
 amazon.com.br
 amazon.com.mx
 amazon.com.tr
-amazon.co.uk
 amazon.de
 amazon.dev
 amazon.es
@@ -33,6 +32,7 @@ amazon.fr
 amazon.in
 amazon.it
 amazon.nl
+<<<<<<< HEAD
 amazonpay.amazon.in
 amazon.pl
 amazon.sa
@@ -40,10 +40,16 @@ amazon.sg
 amazontrust.com
 amazonvideo.com
 a.media-amazon.com
+=======
+amazon.sa
+amazon.sg
+amazon.pl
+>>>>>>> parent of c9acf78 (Merge branch 'main' of https://github.com/dilipprasad/StreamingServiceDomains into main)
 amzn.ae
 amzn.com
 amzn.in
 amzn.sg
+<<<<<<< HEAD
 api.amazon.com
 api.amazon.in
 apiproxy-api-fast-vpc0-nlb-103017a815808492.elb.us-west-2.amazonaws.com
@@ -165,3 +171,7 @@ www.amazon.com
 www.amazon.de
 www.amazon.in
 z-na.associates-amazon.com
+=======
+msh.amazon.co.uk
+arcus-uswest.amazon.com
+>>>>>>> parent of c9acf78 (Merge branch 'main' of https://github.com/dilipprasad/StreamingServiceDomains into main)

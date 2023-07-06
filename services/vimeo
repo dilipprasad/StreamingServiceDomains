@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 fresnel.vimeocdn.com
 f.vimeocdn.com
 i.vimeocdn.com
 player.vimeo.com
 vimeocdn.com
+=======
+vimeo-video.map.fastly.net
+>>>>>>> parent of c9acf78 (Merge branch 'main' of https://github.com/dilipprasad/StreamingServiceDomains into main)
 vimeo.com
 vimeo.map.fastly.net
-vimeo-video.map.fastly.net
+vimeocdn.com
