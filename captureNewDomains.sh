@@ -78,3 +78,8 @@ git config --global user.name "Automated Script"
 git commit -m "Update Domains"
 git push
 echo "Pushed latest domain list successfully"
+
+echo "Sync with gravity sync"
+sudo gravity-sync update
+
+echo "end"
