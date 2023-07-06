@@ -1,78 +1,303 @@
-
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-#!/bin/bash
-cat * >> ../combined.txt
-cat ./* > /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/combinedlist.txt
-cd /home/echo "$USER"/addtlPiholeAdlist
-cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains
-cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/
-cd StreamingServiceDomains/
-#Change to development branch
-    # Check if the file is a regular file
-#Clone the repo
-Command to combine all files to 1 file
-#Commit and push git changes
-#Contact and get a single list
-copies of the Software, and to permit persons to whom the Software is
-copies or substantial portions of the Software.
-Copyright (c) 2022 NextDNS
-#Create Directory if missing
-directory="/home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/"
-do
-done
-echo
-echo "Clone the repo"
-echo "Commit and push git changes"
-echo "Creating Directory if missing"
-echo "Current Dir: $PWD"
-        echo "Current file name: $filename"
-echo "Directory to process: $directory"
-# echo "Get the domains from the pihole database"
-echo "Get the domains from the pihole database"
-        echo "Get the domains from the pihole database for : $filename"
-echo "Navigate to the directory /StreamingServiceDomains"
-echo "Navigate to the directory /StreamingServiceDomains/services"
-echo "Navigate to the parent directory /StreamingServiceDomains"
-echo "Navigating to Directory /home/echo "$USER"/addtlPiholeAdlist"
-echo "Pull if repo already exists"
-echo "Pushed latest domain list successfully"MIT License
-# echo "Sort the file and get only unique entries"
-echo "Sort the file and get only unique entries"
-        echo "Sort the file and get only unique entries  for : $filename"
-        # Echo the file name
-    fi
-        filename=$(basename "$file")
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-for file in "$directory"/*
-furnished to do so, subject to the following conditions:
-git add .
-git clone https://github.com/dilipprasad/StreamingServiceDomains.git
-git commit -m "Update Domains"
-git config --global user.email "dilipprasad87@gmail.com"
-git config --global user.name "Automated Script"
-git pull
-git push
-git status
-    if [[ -f "$file" ]]; then
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-in the Software without restriction, including without limitation the rights
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# Loop through each file in the directory
-mkdir /home/$USER/addtlPiholeAdlist
-#Navigate to the directory
-of this software and associated documentation files (the "Software"), to deal
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-Permission is hereby granted, free of charge, to any person obtaining a copy
-#Pull if repo already exists
-# Set the directory path
-SOFTWARE.
-        sort -o $filename -u $filename
-sort -o combinedlist.txt -u combinedlist.txt
-# sort -o /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
-#Sort the file and get only unique entries
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%-$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%.$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
-# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
-The above copyright notice and this permission notice shall be included in all
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+9cache.com
+9gag.com
+ads-twitter.com
+alive.bar
+amazon.ae
+amazon.ca
+amazon.cn
+amazon.co.jp
+amazon.com
+amazon.com.au
+amazon.com.br
+amazon.com.mx
+amazon.com.tr
+amazon.co.uk
+amazon.de
+amazon.es
+amazon.fr
+amazon.in
+amazon.it
+amazon.nl
+amazon.pl
+amazon.sa
+amazon.sg
+amazonvideo.com
+amzn.ae
+amzn.com
+amzn.in
+amzn.sg
+ani.work
+api.facebook.com
+battle.net
+bere.al
+bereal.com
+blizzard.com
+brighteon.social
+b-www.facebook.com
+cdninstagram.com
+chat-e2ee-mini.facebook.com
+c.im
+counter.social
+dailymotion.com
+discordapp.com
+discordapp.net
+discord.com
+discord.gg
+discord.media
+disneyplus.com
+disneyplus.disney.co.jp
+disney-plus.net
+dmcdn.net
+dm-event.net
+douyin.com # https://github.com/nextdns/services/issues/2
+dssott.com
+dssott.com.c.footprint.net
+ebay.at
+ebay.be
+ebay.ca
+ebaycdn.net
+ebay.ch
+ebay.com
+ebay.com.au
+ebay.com.cn
+ebay.com.hk
+ebay.com.my
+ebay.com.sg
+ebay.co.uk
+ebay.de
+ebaydesc.com
+ebay.es
+ebay.fr
+ebay.ie
+ebayimg.com
+ebay.in
+ebayinc.com
+ebay.it
+ebay.nl
+ebay.ph
+ebay.pl
+ebayrtm.com
+ebaystatic.com
+ebay-us.com
+edge-chat.facebook.com
+edge-skype-com.s-0001.s-msedge.net
+epicgames.com
+ext-twitch.tv
+fb.com
+fb.me
+fedibird.com
+feelinsonice.appspot.com
+feelinsonice-hrd.appspot.com
+fosstodon.org
+gateway.facebook.com
+gc2.jp
+googlevideo.com
+gotinder.com
+hachyderm.io
+hbomax.com
+home.social
+hulu.com
+imgur.com
+infosec.exchange
+instagram.com
+joinmastodon.org
+jtvnw.net
+kolektiva.social
+leagueoflegends.com
+lithium.facebook.com
+loforo.com
+lol.riotgames.com
+lookaside.facebook.com
+mamot.fr
+masthead.social
+mas.to
+masto.ai
+mastodonapp.uk
+mastodon.art
+mastodon.au
+mastodon.cloud
+mastodon.lol
+mastodon.nl
+mastodon.online
+mastodon.scot
+mastodon.sdf.org
+mastodon.social
+mastodon.top
+mastodon.uno
+mastodon.world
+mastodon.xyz
+m.cmx.im
+meatbag.app
+messenger.com
+m.facebook.com
+mindly.social
+minecraft.net
+minecraftservices.com
+mojang.com
+mstdn.ca
+mstdn.jp
+mstdn.party
+mstdn.social
+muscdn.com
+muscdn.com.akamaized.net
+musical.ly
+nerdculture.de
+netflix.com
+netflix.net
+nflxext.com
+nflximg.net
+nflxso.net
+nflxvideo.net
+ohai.social
+pawoo.net
+pinimg.com
+pin.it
+pinterest.at
+pinterest.be
+pinterest.biz
+pinterest.ca
+pinterest.ch
+pinterest.cl
+pinterest.co
+pinterest.co.at
+pinterest.co.in
+pinterest.co.kr
+pinterest.com
+pinterest.com.au
+pinterest.com.bo
+pinterest.com.ec
+pinterest.com.mx
+pinterest.com.pe
+pinterest.com.pt
+pinterest.com.py
+pinterest.com.uy
+pinterest.com.vn
+pinterest.co.nz
+pinterest.co.uk
+pinterest.de
+pinterest.dk
+pinterest.ec
+pinterest.es
+pinterest.fr
+pinterest.hu
+pinterest.id
+pinterest.ie
+pinterest.in
+pinterest.info
+pinterest.it
+pinterest.jp
+pinterest.kr
+pinterest.mx
+pinterest.nl
+pinterest.nz
+pinterest.pe
+pinterest.ph
+pinterest.pt
+pinterest.ru
+pinterest.se
+pinterest.th
+pinterest.tw
+pinterest.uk
+pinterest.vn
+pixelfed.social
+playstation.net
+poa.st
+poweredbysteam.net
+primevideo.com
+qoto.org
+rbxcdn.com
+redd.it
+reddit.com
+reddit.map.fastly.net
+redditmedia.com
+redditstatic.com
+roblox.com
+sc-analytics.appspot.com
+sc-cdn.net
+sc-gw.com
+sc-jpl.com
+sc-prod.net
+search-api-disney.bamgrid.com
+sfba.social
+signal.org
+skypeassets.com
+skype.com
+skypedata.akadns.net
+skype-edf.akadns.net
+snapads.com
+snapchat.com
+snap-dev.net
+steamcdn-a.akamaihd.net
+steam-chat.com
+steamcommunity-a.akamaihd.net
+steamcommunity-a.akamaihd.net.edgesuite.net
+steamcommunity.com
+steamgames.com
+steamgames.net
+steampowered.com
+steamstatic.com
+steamstore-a.akamaihd.net
+steamusercontent-a.akamaihd.net
+t.co
+techhub.social
+textsecure-service.whispersystems.org
+tiktokcdn.com
+tiktokcdn.com.akamaized.net
+tiktokcdn.com.c.worldfcdn.com
+tiktokcdn.com.edgesuite.net
+tiktokcdn.com.wsdvs.com
+tiktokcdn.liveplay.myqcloud.com
+tiktokcdn-us.com
+tiktok.com
+tiktok.com.edgesuite.net
+tiktokv.com
+tiktokv.com.edgekey.net
+tiktokv.com.edgesuite.net
+tilde.zone
+tinder.com
+tindersparks.com
+toot.community
+troet.cafe
+ttlivecdn.com
+ttvnw.net
+tumblr.com
+twimg.com
+twitchcdn.net
+twitch.map.fastly.net
+twitchsvc.net
+twitch.tv
+twitter.com
+twttr.com
+universeodon.com
+userapi.com
+vimeocdn.com
+vimeo.com
+vimeo.map.fastly.net
+vimeo-video.map.fastly.net
+vk.cc
+vk-cdn.net
+vk.com
+vk.link
+vkontakte.ru
+vk-portal.net
+vkuservideo.net
+www.facebook.com
+xbox.com
+xboxlive.xom
+youtu.be
+youtube
+youtube.be
+youtube.com
+youtube.co.uk
+youtube.de
+youtubeeducation.com
+youtube.fr
+youtubegaming.com
+youtube.googleapis.com
+youtubei.googleapis.com
+youtubekids.com
+youtube.nl
+youtube-nocookie.com
+youtube.pl
+yt3.ggpht.com
+ytimg.com
