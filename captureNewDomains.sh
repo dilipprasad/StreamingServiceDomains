@@ -4,8 +4,8 @@
 echo "Creating Directory if missing"
 mkdir /home/$USER/addtlPiholeAdlist
 
-echo "Navigating to Directory /home/echo "$USER"/addtlPiholeAdlist"
-cd /home/echo "$USER"/addtlPiholeAdlist
+echo "Navigating to Directory /home/$USER/addtlPiholeAdlist"
+cd /home/$USER/addtlPiholeAdlist
 
 echo "Clone the repo"
 #Clone the repo
@@ -22,10 +22,10 @@ git pull
 
 echo "Navigate to the directory /StreamingServiceDomains/services"
 #Navigate to the directory
-cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/
+cd  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
 
 # Set the directory path
-directory="/home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/"
+directory="/home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/"
 echo "Directory to process: $directory"
 
 
@@ -59,7 +59,7 @@ echo "Get the domains from the pihole database"
 cat ./* > /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
-cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains
+cd /home/$USER/addtlPiholeAdlist/StreamingServiceDomains
 
 echo "Current Dir: $PWD"
 
