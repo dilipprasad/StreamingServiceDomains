@@ -44,6 +44,8 @@ echo "Commit and push git changes"
 #Commit and push git changes
 git add .
 git status
+git config --global user.email "dilipprasad87@gmail.com"
+git config --global user.name "Automated Script"
 git commit -m "Update Domains"
 echo "Token:$STREAMINGSERVICEREPO_GITHUBTOKEN"
 git push https://dilipprasad87@gmail.com:$STREAMINGSERVICEREPO_GITHUBTOKEN@github.com/dilipprasad/StreamingServiceDomains.git
