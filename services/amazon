@@ -58,6 +58,7 @@ apiproxy-device-prod-nlb-3-a653f8a785200e05.elb.us-west-2.amazonaws.com
 apiproxy-device-prod-nlb-4-97fa936b307500cb.elb.us-west-2.amazonaws.com
 apiproxy-website-nlb-prod-1-bcf28d21f4bbcf2c.elb.us-west-2.amazonaws.com
 apiproxy-website-nlb-prod-2-e98cb8cf33ff3581.elb.us-west-2.amazonaws.com
+ap-northeast-1.signin.aws.amazon.com
 ap-northeast-3.console.aws.amazon.com
 appstore-tv-prod-eu.amazon.com
 appx.transient.amazon.in
@@ -74,6 +75,7 @@ aviary.amazon.de
 avs-alexa-18-eu.amazon.com
 aws.amazon.com
 awsmedia.s3.amazonaws.com
+aws-trusted-advisor-prod.us-east-1.amazonaws.com
 bitspilani-alb-1421899025.ap-south-1.elb.amazonaws.com
 c.amazon-adsystem.com
 cdn.assets.as2.amazonaws.com
@@ -82,7 +84,9 @@ ce.us-east-1.amazonaws.com
 cloudfront-labs.amazonaws.com
 c.media-amazon.com
 cognito-identity.ap-northeast-1.amazonaws.com
+cognito-identity.us-east-1.amazonaws.com
 completion.amazon.com
+compute-optimizer.us-east-1.amazonaws.com
 console.aws.amazon.com
 coursera_assets.s3.amazonaws.com
 coursera-profile-photos.s3.amazonaws.com
@@ -104,6 +108,7 @@ docs.aws.amazon.com
 dp-discovery-na-ext.amazon.com
 dp-gw-na.amazon.com
 dp-rsm-prod.amazon.com
+dtnext--prod-s3-ap--south--1-amazonaws-com.cdn.ampproject.org
 dualstack.apiproxy-http1-873404929.us-west-2.elb.amazonaws.com
 ec2-52-23-111-175.compute-1.amazonaws.com
 ec2.ap-south-1.amazonaws.com
@@ -144,6 +149,7 @@ images-na.ssl-images-amazon.com
 imagine-watch.s3.ap-south-1.amazonaws.com
 ipv6.unagi-na.amazon.com
 ir-na.amazon-adsystem.com
+kca.amazon.com
 kqd06oflxl.execute-api.eu-west-1.amazonaws.com
 ktpx-eu.amazon.com
 logs.ap-south-1.amazonaws.com
@@ -157,6 +163,7 @@ media-amazon.com
 media.amazon.map.fastly.net
 metrics.media-amazon.com
 m.media-amazon.com
+mobile-app-expan.amazon.com
 moxie-concierge.s3.amazonaws.com
 mquuqdjyi6.execute-api.us-east-1.amazonaws.com
 msh.amazon.com
@@ -181,6 +188,7 @@ prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
 prod.us-east-1.sonar.prime-video.amazon.dev
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
+ram.ap-south-1.amazonaws.com
 ram.us-east-1.amazonaws.com
 read.amazon.in
 remoteconfig-eu.amazon.com
@@ -195,10 +203,15 @@ s3-eu-west-1.amazonaws.com
 s3-r-w.ap-south-1.amazonaws.com
 s3-us-west-2.amazonaws.com
 s.amazon-adsystem.com
+sars.amazon.com
+sars-eu.amazon.com
+securityhub.ap-south-1.amazonaws.com
 securityhub.us-east-1.amazonaws.com
+servicecatalog-appregistry.ap-south-1.amazonaws.com
 servicecatalog-appregistry.us-east-1.amazonaws.com
 siege-amazon.com
 signin.aws.amazon.com
+sns.us-east-1.amazonaws.com
 softwareupdates.amazon.com
 solucia.s3.us-east-2.amazonaws.com
 spectrum.s3.amazonaws.com
@@ -221,8 +234,10 @@ talent500-profile-images-prod-cb.s3.amazonaws.com
 talent500-public-prod-cb.s3.amazonaws.com
 talent500-public-prod-cb.s3.ap-south-1.amazonaws.com
 target.aws.amazon.com
+teamblindstatics.s3.ap-northeast-1.amazonaws.com
 thinkific-import.s3.amazonaws.com
 threeplr-abdx8mxr6q3e.api.amazonvideo.com
+todo-ta-g7g.amazon.com
 tp.c95e7e602-frontier.amazon.in
 transient-eu.amazon.com
 ubuykw.s3.amazonaws.com
@@ -250,5 +265,6 @@ ws-na.amazon-adsystem.com
 www.amazon.com
 www.amazon.de
 www.amazon.in
+xqgoa1uunl.execute-api.us-west-2.amazonaws.com
 z-na.amazon-adsystem.com
 z-na.associates-amazon.com
