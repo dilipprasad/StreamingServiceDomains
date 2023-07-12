@@ -16,6 +16,7 @@ absewfkha8cb.eu.api.amazonvideo.com
 abty9w6f2rf8.eu.api.amazonvideo.com
 abyqxpgk7c4w.eu.api.amazonvideo.com
 abzq7aq4866p.eu.api.amazonvideo.com
+ads-setu-proxy-eu.amazon.com
 alb-fc-babygear-buyguide-app-1493012510.ap-south-1.elb.amazonaws.com
 alb-live-as-checkout-304368935.ap-south-1.elb.amazonaws.com
 alb-live-parenting-api-522744537.ap-south-1.elb.amazonaws.com
@@ -51,6 +52,8 @@ anyjcaraak.execute-api.us-east-1.amazonaws.com
 api.amazon.com
 api.amazon.co.uk
 api.amazon.in
+api.eu.amazonalexa.com
+api.fe.amazonalexa.com
 apiproxy-api-fast-vpc0-nlb-103017a815808492.elb.us-west-2.amazonaws.com
 apiproxy-device-prod-nlb-1-54e80724f8c6ba2d.elb.us-west-2.amazonaws.com
 apiproxy-device-prod-nlb-2-9a34ae4608b5939d.elb.us-west-2.amazonaws.com
@@ -131,6 +134,7 @@ godel-amazon-assets.s3.amazonaws.com
 health.us-east-1.amazonaws.com
 hiya-dist.s3.us-west-2.amazonaws.com
 hjszhb9uk3.execute-api.eu-west-1.amazonaws.com
+idc-service-oz-eu.amazon.com
 idmb-app-chat-global-proxy-proto-1114919025.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi02-1415306822.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi03new-426797692.ap-south-1.elb.amazonaws.com
@@ -164,6 +168,7 @@ media.amazon.map.fastly.net
 metrics.media-amazon.com
 m.media-amazon.com
 mobile-app-expan.amazon.com
+monitoring.us-east-1.amazonaws.com
 moxie-concierge.s3.amazonaws.com
 mquuqdjyi6.execute-api.us-east-1.amazonaws.com
 msh.amazon.com
