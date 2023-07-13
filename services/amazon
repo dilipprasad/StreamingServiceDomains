@@ -14,6 +14,7 @@ ab992t7ewg8z.api.amazonvideo.com
 ab992t7ewg8z.eu.api.amazonvideo.com
 absewfkha8cb.eu.api.amazonvideo.com
 abty9w6f2rf8.eu.api.amazonvideo.com
+abty9w6f2rf8.na.api.amazonvideo.com
 abyqxpgk7c4w.eu.api.amazonvideo.com
 abzq7aq4866p.eu.api.amazonvideo.com
 ads-setu-proxy-eu.amazon.com
@@ -73,6 +74,8 @@ ap-southeast-1.ccs.amazonaws.com
 ap-southeast-2.signin.aws.amazon.com
 arcus-uswest.amazon.com
 asmw.amazon.in
+associates-amazon.com
+assoc-na.associates-amazon.com
 atv-ax25fykix4d0b-xiaomi-dangal-mitvaxso0-xiaomidangreleasekeys.api.amazonvideo.com
 aviary.amazon.de
 avs-alexa-18-eu.amazon.com
@@ -80,10 +83,12 @@ aws.amazon.com
 awsmedia.s3.amazonaws.com
 aws-trusted-advisor-prod.us-east-1.amazonaws.com
 bitspilani-alb-1421899025.ap-south-1.elb.amazonaws.com
+boxxact-netcoresmartech-com-772936059.ap-south-1.elb.amazonaws.com
 c.amazon-adsystem.com
 cdn.assets.as2.amazonaws.com
 cdws.us-east-1.amazonaws.com
 ce.us-east-1.amazonaws.com
+client.rum.us-east-1.amazonaws.com
 cloudfront-labs.amazonaws.com
 c.media-amazon.com
 cognito-identity.ap-northeast-1.amazonaws.com
@@ -212,6 +217,7 @@ sars.amazon.com
 sars-eu.amazon.com
 securityhub.ap-south-1.amazonaws.com
 securityhub.us-east-1.amazonaws.com
+sellercentral.amazon.in
 servicecatalog-appregistry.ap-south-1.amazonaws.com
 servicecatalog-appregistry.us-east-1.amazonaws.com
 siege-amazon.com
@@ -235,6 +241,7 @@ sts.me-central-1.amazonaws.com
 sts.me-south-1.amazonaws.com
 support.console.aws.amazon.com
 support.us-east-1.amazonaws.com
+talent500-frontend-cb.s3.ap-south-1.amazonaws.com
 talent500-profile-images-prod-cb.s3.amazonaws.com
 talent500-public-prod-cb.s3.amazonaws.com
 talent500-public-prod-cb.s3.ap-south-1.amazonaws.com
@@ -267,6 +274,7 @@ watch.amazon.co.uk
 watch.amazon.de
 wl.amazon-dss.com
 ws-na.amazon-adsystem.com
+www.amazon.ae
 www.amazon.com
 www.amazon.de
 www.amazon.in
