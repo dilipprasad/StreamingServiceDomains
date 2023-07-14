@@ -1,10 +1,15 @@
 03y0s318gk.execute-api.ap-south-1.amazonaws.com
+774f913e-production-weconv-abee-330827228.us-east-1.elb.amazonaws.com
 9pkplnrgv3.execute-api.us-east-1.amazonaws.com
+a1124629dfa84461f9042accff1d2a42-683ab4ef89547e5f.elb.us-east-1.amazonaws.com
+aan.amazon.ae
 aan.amazon.com
 aan.amazon.in
 aax.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
+aax-eu.amazon.ae
 aax-eu.amazon.in
+aax-eu-retail-direct.amazon-adsystem.com
 aax-us.amazon-adsystem.com
 aax-us-east-retail-direct.amazon.com
 aax-us-iad.amazon.com
@@ -17,7 +22,10 @@ abty9w6f2rf8.eu.api.amazonvideo.com
 abty9w6f2rf8.na.api.amazonvideo.com
 abyqxpgk7c4w.eu.api.amazonvideo.com
 abzq7aq4866p.eu.api.amazonvideo.com
+accosa-ivs.s3.ap-south-1.amazonaws.com
+addresssuggest-eu.amazon.com
 ads-setu-proxy-eu.amazon.com
+alb-ext-ingress-group-95161440.us-east-1.elb.amazonaws.com
 alb-fc-babygear-buyguide-app-1493012510.ap-south-1.elb.amazonaws.com
 alb-live-as-checkout-304368935.ap-south-1.elb.amazonaws.com
 alb-live-parenting-api-522744537.ap-south-1.elb.amazonaws.com
@@ -72,6 +80,7 @@ ap-south-1.secure-fields.prod.lumos.amazon.dev
 ap-south-1.signin.aws.amazon.com
 ap-southeast-1.ccs.amazonaws.com
 ap-southeast-2.signin.aws.amazon.com
+apx-security.amazon.in
 arcus-uswest.amazon.com
 asmw.amazon.in
 associates-amazon.com
@@ -93,6 +102,7 @@ cloudfront-labs.amazonaws.com
 c.media-amazon.com
 cognito-identity.ap-northeast-1.amazonaws.com
 cognito-identity.us-east-1.amazonaws.com
+completion.amazon.ae
 completion.amazon.com
 compute-optimizer.us-east-1.amazonaws.com
 console.aws.amazon.com
@@ -101,11 +111,13 @@ coursera-profile-photos.s3.amazonaws.com
 coursera-university-assets.s3.amazonaws.com
 crl.rootca1.amazontrust.com
 cz15y20kg2.execute-api.us-east-1.amazonaws.com
+data.amazon.ae
 data.amazon.com
 data.amazon.in
 data-eu.amazon.com
 dcape-na.amazon.com
 dcapsproxy-na.amazon.com
+dcs-edge-ind1-1562177235.ap-south-1.elb.amazonaws.com
 dedge-main-sg-lb-443-a5b9044fa336b0b9.elb.ap-southeast-1.amazonaws.com
 det-ta-g7g.amazon.com
 device-messaging-na.amazon.com
@@ -118,6 +130,7 @@ dp-gw-na.amazon.com
 dp-rsm-prod.amazon.com
 dtnext--prod-s3-ap--south--1-amazonaws-com.cdn.ampproject.org
 dualstack.apiproxy-http1-873404929.us-west-2.elb.amazonaws.com
+dualstack.ichnaea-web-2-755189838.us-west-2.elb.amazonaws.com
 ec2-52-23-111-175.compute-1.amazonaws.com
 ec2.ap-south-1.amazonaws.com
 ec2.us-east-1.amazonaws.com
@@ -126,7 +139,9 @@ ecx.images-amazon.com
 edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
 eu.prism.digital.amazon.dev
 firs-ta-g7g.amazon.com
+fls-eu.amazon.ae
 fls-eu.amazon.com
+fls-eu.amazon.co.uk
 fls-eu.amazon.in
 fls-na.amazon.com
 f.media-amazon.com
@@ -163,6 +178,7 @@ kqd06oflxl.execute-api.eu-west-1.amazonaws.com
 ktpx-eu.amazon.com
 logs.ap-south-1.amazonaws.com
 mads.amazon-adsystem.com
+mads.amazon.com
 mads-eu.amazon.com
 mag-eu.amazon.com
 mas-ext-eu.amazon.com
@@ -171,6 +187,7 @@ match-visualsearch-in.amazon.com
 media-amazon.com
 media.amazon.map.fastly.net
 metrics.media-amazon.com
+mfilterit-lb-02-693581885.us-west-2.elb.amazonaws.com
 m.media-amazon.com
 mobile-app-expan.amazon.com
 monitoring.us-east-1.amazonaws.com
@@ -190,6 +207,7 @@ ocsp.rootca1.amazontrust.com
 ocsp.rootg2.amazontrust.com
 origin-amazonpay.amazon.in
 origin-completion.amazon.in
+pay.amazon.in
 pc-quiz.s3.us-east-2.amazonaws.com
 phd.aws.amazon.com
 pinpoint.ap-northeast-1.amazonaws.com
@@ -199,6 +217,7 @@ prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
 prod.us-east-1.sonar.prime-video.amazon.dev
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
+qualified-production.s3.us-east-1.amazonaws.com
 ram.ap-south-1.amazonaws.com
 ram.us-east-1.amazonaws.com
 read.amazon.in
@@ -242,6 +261,7 @@ sts.me-central-1.amazonaws.com
 sts.me-south-1.amazonaws.com
 support.console.aws.amazon.com
 support.us-east-1.amazonaws.com
+syncelb-1292340544.ap-southeast-1.elb.amazonaws.com
 talent500-frontend-cb.s3.ap-south-1.amazonaws.com
 talent500-profile-images-prod-cb.s3.amazonaws.com
 talent500-public-prod-cb.s3.amazonaws.com
@@ -254,7 +274,9 @@ todo-ta-g7g.amazon.com
 tp.c95e7e602-frontier.amazon.in
 transient-eu.amazon.com
 ubuykw.s3.amazonaws.com
+unagi.amazon.ae
 unagi.amazon.com
+unagi.amazon.co.uk
 unagi.amazon.fr
 unagi.amazon.in
 unagi-eu.amazon.com
