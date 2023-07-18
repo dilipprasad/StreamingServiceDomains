@@ -7,6 +7,7 @@ anycast.ftl.netflix.com
 api-global.netflix.com
 appboot.netflix.com
 appboot.us-west-2.origin.prodaa.netflix.com
+customerevents.netflix.com
 fast.dradis.netflix.com
 ichnaea.netflix.com
 ichnaea-web.netflix.com
@@ -25,6 +26,7 @@ nflximg.net
 nflxso.net
 nflxvideo.net
 nrdp52-appboot.netflix.com
+nrdp60-appboot.netflix.com
 nrdp-ipv6.prod.ftl.netflix.com
 nrdp.nccp.netflix.com
 nrdp.prod.cloud.netflix.com

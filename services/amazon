@@ -2,6 +2,7 @@
 774f913e-production-weconv-abee-330827228.us-east-1.elb.amazonaws.com
 9pkplnrgv3.execute-api.us-east-1.amazonaws.com
 a1124629dfa84461f9042accff1d2a42-683ab4ef89547e5f.elb.us-east-1.amazonaws.com
+a7h4qt7q1f.execute-api.eu-central-1.amazonaws.com
 aan.amazon.ae
 aan.amazon.com
 aan.amazon.in
@@ -101,6 +102,7 @@ avs-alexa-18-eu.amazon.com
 aws.amazon.com
 awsmedia.s3.amazonaws.com
 aws-trusted-advisor-prod.us-east-1.amazonaws.com
+beehiiv-images-production.s3.amazonaws.com
 bitspilani-alb-1421899025.ap-south-1.elb.amazonaws.com
 boxxact-netcoresmartech-com-772936059.ap-south-1.elb.amazonaws.com
 c.amazon-adsystem.com
@@ -165,6 +167,7 @@ godel-amazon-assets.s3.amazonaws.com
 health.us-east-1.amazonaws.com
 hiya-dist.s3.us-west-2.amazonaws.com
 hjszhb9uk3.execute-api.eu-west-1.amazonaws.com
+ib-downloads-official.s3.amazonaws.com
 idc-service-oz-eu.amazon.com
 idmb-app-chat-global-proxy-proto-1114919025.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi02-1415306822.ap-south-1.elb.amazonaws.com
@@ -204,6 +207,7 @@ media-amazon.com
 media.amazon.map.fastly.net
 metrics.media-amazon.com
 mfilterit-lb-02-693581885.us-west-2.elb.amazonaws.com
+mfv4w621x3.execute-api.eu-central-1.amazonaws.com
 m.media-amazon.com
 mobile-app-expan.amazon.com
 monitoring.us-east-1.amazonaws.com
@@ -213,6 +217,7 @@ msh.amazon.com
 msh.amazon.co.uk
 msh.amazon.in
 music.amazon.com
+music.amazon.in
 na12-binary-objects.s3.amazonaws.com
 nalandab2b-prod-elb01-1706732909.ap-south-1.elb.amazonaws.com
 nalanda-prod-assets.s3.ap-south-1.amazonaws.com
@@ -226,6 +231,8 @@ ocsp.r2m02.amazontrust.com
 ocsp.rootca1.amazontrust.com
 ocsp.rootg2.amazontrust.com
 ohlocal-media.s3.amazonaws.com
+opencollective-production.s3-us-west-1.amazonaws.com
+opencollective-production.s3.us-west-1.amazonaws.com
 origin-amazonpay.amazon.in
 origin-completion.amazon.in
 ota-production-bucket.s3.ap-south-1.amazonaws.com
@@ -241,10 +248,12 @@ prime.amazon.com
 prime.amazon.eu
 prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
+prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
 prod.us-east-1.sonar.prime-video.amazon.dev
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
 p-y3-www-amazon-in-kalias.amazon.in
 pyck-res-bucket.s3.ap-southeast-1.amazonaws.com
+q419yw5kcz2ra0.eu.api.amazonvideo.com
 qspublic.s3.amazonaws.com
 qualified-production.s3.us-east-1.amazonaws.com
 ram.ap-south-1.amazonaws.com
@@ -260,6 +269,7 @@ s3-ap-southeast-1.amazonaws.com
 s3.ap-southeast-1.amazonaws.com
 s3-eu-west-1.amazonaws.com
 s3-r-w.ap-south-1.amazonaws.com
+s3.us-east-1.amazonaws.com
 s3-us-west-2.amazonaws.com
 sadobe.sell.amazon.in
 s.amazon-adsystem.com
@@ -300,6 +310,7 @@ talent500-public-prod-cb.s3.ap-south-1.amazonaws.com
 target.aws.amazon.com
 teamblindstatics.s3.ap-northeast-1.amazonaws.com
 thinkific-import.s3.amazonaws.com
+threeplr-ab8swqfd2t98.api.amazonvideo.com
 threeplr-abdx8mxr6q3e.api.amazonvideo.com
 todo-ta-g7g.amazon.com
 tp.c95e7e602-frontier.amazon.in
