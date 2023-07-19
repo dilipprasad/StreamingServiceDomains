@@ -246,6 +246,7 @@ pinpoint.us-east-1.amazonaws.com
 pirple.s3.amazonaws.com
 prime.amazon.com
 prime.amazon.eu
+prismic-io.s3.amazonaws.com
 prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
 prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
@@ -309,6 +310,7 @@ talent500-public-prod-cb.s3.amazonaws.com
 talent500-public-prod-cb.s3.ap-south-1.amazonaws.com
 target.aws.amazon.com
 teamblindstatics.s3.ap-northeast-1.amazonaws.com
+thingbits-in.s3.ap-south-1.amazonaws.com
 thinkific-import.s3.amazonaws.com
 threeplr-ab8swqfd2t98.api.amazonvideo.com
 threeplr-abdx8mxr6q3e.api.amazonvideo.com
