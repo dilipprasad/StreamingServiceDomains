@@ -195,6 +195,7 @@ kinstruments-measurements.s3-external-1.amazonaws.com
 kqd06oflxl.execute-api.eu-west-1.amazonaws.com
 kraken-measurements.s3-external-1.amazonaws.com
 ktpx-eu.amazon.com
+leftynew.s3.amazonaws.com
 logs.ap-south-1.amazonaws.com
 mads.amazon-adsystem.com
 mads.amazon.com
@@ -244,6 +245,8 @@ phd.aws.amazon.com
 pinpoint.ap-northeast-1.amazonaws.com
 pinpoint.us-east-1.amazonaws.com
 pirple.s3.amazonaws.com
+porter-customer-app-promo-images-prod.s3.amazonaws.com
+porter-vehicles.s3-ap-southeast-1.amazonaws.com
 prime.amazon.com
 prime.amazon.eu
 prismic-io.s3.amazonaws.com
