@@ -210,6 +210,7 @@ metrics.media-amazon.com
 mfilterit-lb-02-693581885.us-west-2.elb.amazonaws.com
 mfv4w621x3.execute-api.eu-central-1.amazonaws.com
 m.media-amazon.com
+m-media--amazon-com.cdn.ampproject.org
 mobile-app-expan.amazon.com
 monitoring.us-east-1.amazonaws.com
 moxie-concierge.s3.amazonaws.com
