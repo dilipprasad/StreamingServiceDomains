@@ -1,6 +1,12 @@
 accounts.snapchat.com
+app-analytics-v2.snapchat.com
+ap-south1-aws.api.snapchat.com
+asia-south1-gcp.api.snapchat.com
+asia-southeast1-gcp.api.snapchat.com
+aws.api.snapchat.com
 feelinsonice.appspot.com
 feelinsonice-hrd.appspot.com
+gcp.api.snapchat.com
 intg.snapchat.com
 sc-analytics.appspot.com
 sc-cdn.net
@@ -11,3 +17,6 @@ snapads.com
 snapchat.com
 snap-dev.net
 tr.snapchat.com
+us-central1-gcp.api.snapchat.com
+us-east1-aws.api.snapchat.com
+us-east4-gcp.api.snapchat.com
