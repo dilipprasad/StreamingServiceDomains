@@ -20,6 +20,7 @@ ab992t7ewg8z.api.amazonvideo.com
 ab992t7ewg8z.eu.api.amazonvideo.com
 absewfkha8cb.api.amazonvideo.com
 absewfkha8cb.eu.api.amazonvideo.com
+absewfkha8cb.eu.api.amazonvideo.com.pihole0
 abty9w6f2rf8.eu.api.amazonvideo.com
 abty9w6f2rf8.na.api.amazonvideo.com
 abyqxpgk7c4w.eu.api.amazonvideo.com
@@ -68,6 +69,7 @@ api.amazon.com
 api.amazon.co.uk
 api-amazondevices.amazon.in
 api.amazon.in
+api.amazon.in.pihole0
 api.eu.amazonalexa.com
 api.fe.amazonalexa.com
 apiproxy-api-fast-vpc0-nlb-103017a815808492.elb.us-west-2.amazonaws.com
@@ -95,6 +97,7 @@ associates-amazon.com
 assoc-na.associates-amazon.com
 atv-a2rz0s4oegatyb-skywortdigital-hy00a-xstreamtbox002-airtkeys.api.amazonvideo.com
 atv-ax25fykix4d0b-xiaomi-dangal-mitvaxso0-xiaomidangreleasekeys.api.amazonvideo.com
+atv-ext-eu.amazon.com
 aviary.amazon.de
 avpk-a2rz0s4oegatyb-0.api.amazonvideo.com
 avpk-a2rz0s4oegatyb-0.eu.api.amazonvideo.com
@@ -117,12 +120,14 @@ cognito-identity.ap-northeast-1.amazonaws.com
 cognito-identity.us-east-1.amazonaws.com
 completion.amazon.ae
 completion.amazon.com
+completion.amazon.in
 compute-optimizer.us-east-1.amazonaws.com
 console.aws.amazon.com
 coursera_assets.s3.amazonaws.com
 coursera-profile-photos.s3.amazonaws.com
 coursera-university-assets.s3.amazonaws.com
 crl.rootca1.amazontrust.com
+custpostimages.s3.ap-south-1.amazonaws.com
 cz15y20kg2.execute-api.us-east-1.amazonaws.com
 data.amazon.ae
 data.amazon.com
@@ -150,6 +155,7 @@ ec2.us-east-1.amazonaws.com
 ecl-europe-prod.s3-eu-central-1.amazonaws.com
 ecx.images-amazon.com
 edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
+edger-edger-ra7qmuyuwxzs-482101627.us-west-2.elb.amazonaws.com
 eu.prism.digital.amazon.dev
 firs-ta-g7g.amazon.com
 fls-eu.amazon.ae
@@ -159,6 +165,7 @@ fls-eu.amazon.in
 fls-na.amazon.com
 f.media-amazon.com
 ftvr-eu.amazon.com
+gallery-rfc.s3.ap-south-1.amazonaws.com
 github-cloud.s3.amazonaws.com
 github-production-user-asset-6210df.s3.amazonaws.com
 global.ccs.amazonaws.com
@@ -206,6 +213,7 @@ mas-sdk.amazon.com
 match-visualsearch-in.amazon.com
 media-amazon.com
 media.amazon.map.fastly.net
+meesho-supply-v2.s3.ap-southeast-1.amazonaws.com
 metrics.media-amazon.com
 mfilterit-lb-02-693581885.us-west-2.elb.amazonaws.com
 mfv4w621x3.execute-api.eu-central-1.amazonaws.com
@@ -217,6 +225,7 @@ moxie-concierge.s3.amazonaws.com
 mquuqdjyi6.execute-api.us-east-1.amazonaws.com
 msh.amazon.com
 msh.amazon.co.uk
+msh.amazon.co.uk.pihole0
 msh.amazon.in
 music.amazon.com
 music.amazon.in
@@ -255,8 +264,10 @@ prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
 prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
 prod.us-east-1.sonar.prime-video.amazon.dev
+prod.us-east-1.sonar.prime-video.amazon.dev.pihole0
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
 p-y3-www-amazon-in-kalias.amazon.in
+pyck-res-bucket.s3-ap-southeast-1.amazonaws.com
 pyck-res-bucket.s3.ap-southeast-1.amazonaws.com
 q419yw5kcz2ra0.eu.api.amazonvideo.com
 qspublic.s3.amazonaws.com
@@ -266,6 +277,7 @@ ram.us-east-1.amazonaws.com
 read.amazon.in
 remoteconfig-eu.amazon.com
 resolver-msg-xiaomi-net-665721575.ap-south-1.elb.amazonaws.com
+rms-alb-1123132807.ap-south-1.elb.amazonaws.com
 s3.amazonaws.com
 s3-ap-northeast-1.amazonaws.com
 s3-ap-south-1.amazonaws.com
@@ -274,6 +286,7 @@ s3-ap-southeast-1.amazonaws.com
 s3.ap-southeast-1.amazonaws.com
 s3-eu-west-1.amazonaws.com
 s3-r-w.ap-south-1.amazonaws.com
+s3-r-w.ap-southeast-1.amazonaws.com
 s3.us-east-1.amazonaws.com
 s3-us-west-2.amazonaws.com
 sadobe.sell.amazon.in
@@ -288,6 +301,7 @@ servicecatalog-appregistry.ap-south-1.amazonaws.com
 servicecatalog-appregistry.us-east-1.amazonaws.com
 siege-amazon.com
 signin.aws.amazon.com
+smatbot.s3.amazonaws.com
 sns.us-east-1.amazonaws.com
 softwareupdates.amazon.com
 solucia.s3.us-east-2.amazonaws.com
@@ -319,6 +333,7 @@ thinkific-import.s3.amazonaws.com
 threeplr-ab8swqfd2t98.api.amazonvideo.com
 threeplr-abdx8mxr6q3e.api.amazonvideo.com
 todo-ta-g7g.amazon.com
+tp.7c52cf103-frontier.amazon.in
 tp.c95e7e602-frontier.amazon.in
 transient-eu.amazon.com
 u03lw25r9l.execute-api.us-east-1.amazonaws.com
