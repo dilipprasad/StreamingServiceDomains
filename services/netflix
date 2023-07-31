@@ -1,8 +1,12 @@
 android-anycast.prod.ftl.netflix.com
+android-anycast.prod.ftl.netflix.com.pihole0
 android-appboot.netflix.com
+android-appboot.netflix.com.pihole0
 android.ngp.prod.cloud.netflix.com
 android.prod.cloud.netflix.com
+android.prod.cloud.netflix.com.pihole0
 android.prod.ftl.netflix.com
+android.prod.ftl.netflix.com.pihole0
 anycast.ftl.netflix.com
 api-global.netflix.com
 appboot.netflix.com
@@ -42,6 +46,7 @@ probe-dradis-anycast.prod.ftl.netflix.com
 probe-dradis-aws-only.prod.ftl.netflix.com
 probe-dradis.prod.ftl.netflix.com
 push.prod.netflix.com
+push.prod.netflix.com.pihole0
 secure.netflix.com
 uiboot.netflix.com
 us-east-1-probe.prod.ftl.netflix.com
