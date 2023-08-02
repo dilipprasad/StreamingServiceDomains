@@ -174,6 +174,7 @@ godel-amazon-assets.s3.amazonaws.com
 health.us-east-1.amazonaws.com
 hiya-dist.s3.us-west-2.amazonaws.com
 hjszhb9uk3.execute-api.eu-west-1.amazonaws.com
+hv-camera-web-sg.s3-ap-southeast-1.amazonaws.com
 ib-downloads-official.s3.amazonaws.com
 idc-service-oz-eu.amazon.com
 idmb-app-chat-global-proxy-proto-1114919025.ap-south-1.elb.amazonaws.com
@@ -193,8 +194,10 @@ images-fe.ssl-images-amazon.com
 images-na.ssl-images-amazon.com
 imagine-watch.s3.ap-south-1.amazonaws.com
 in.amazonforum.com
+internal-cdn.amazon.com
 ipv6.unagi-na.amazon.com
 ir-na.amazon-adsystem.com
+kaizen-static.s3.ap-south-1.amazonaws.com
 kca.amazon.com
 kinesis.ap-south-1.amazonaws.com
 kinesis.us-east-1.amazonaws.com
@@ -202,6 +205,7 @@ kinstruments-measurements.s3-external-1.amazonaws.com
 kqd06oflxl.execute-api.eu-west-1.amazonaws.com
 kraken-measurements.s3-external-1.amazonaws.com
 ktpx-eu.amazon.com
+kyc2-services-prod20220121150116230400000001.s3.ap-south-1.amazonaws.com
 leftynew.s3.amazonaws.com
 logs.ap-south-1.amazonaws.com
 mads.amazon-adsystem.com
@@ -217,8 +221,10 @@ meesho-supply-v2.s3.ap-southeast-1.amazonaws.com
 metrics.media-amazon.com
 mfilterit-lb-02-693581885.us-west-2.elb.amazonaws.com
 mfv4w621x3.execute-api.eu-central-1.amazonaws.com
+midway-auth.amazon.com
 m.media-amazon.com
 m-media--amazon-com.cdn.ampproject.org
+m.media-amazon.com.pihole0
 mobile-app-expan.amazon.com
 monitoring.us-east-1.amazonaws.com
 moxie-concierge.s3.amazonaws.com
@@ -255,6 +261,8 @@ phd.aws.amazon.com
 pinpoint.ap-northeast-1.amazonaws.com
 pinpoint.us-east-1.amazonaws.com
 pirple.s3.amazonaws.com
+pluralsight-assets.s3.amazonaws.com
+pluralsight-assets.s3.us-east-1.amazonaws.com
 porter-customer-app-promo-images-prod.s3.amazonaws.com
 porter-vehicles.s3-ap-southeast-1.amazonaws.com
 prime.amazon.com
@@ -335,6 +343,7 @@ threeplr-abdx8mxr6q3e.api.amazonvideo.com
 todo-ta-g7g.amazon.com
 tp.7c52cf103-frontier.amazon.in
 tp.c95e7e602-frontier.amazon.in
+track.amazon.in
 transient-eu.amazon.com
 u03lw25r9l.execute-api.us-east-1.amazonaws.com
 ubuykw.s3.amazonaws.com
