@@ -235,6 +235,7 @@ msh.amazon.co.uk.pihole0
 msh.amazon.in
 music.amazon.com
 music.amazon.in
+mykartavya-cms-prod.s3.ap-south-1.amazonaws.com
 na12-binary-objects.s3.amazonaws.com
 nalandab2b-prod-elb01-1706732909.ap-south-1.elb.amazonaws.com
 nalanda-prod-assets.s3.ap-south-1.amazonaws.com
@@ -247,6 +248,7 @@ ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
 ocsp.rootca1.amazontrust.com
 ocsp.rootg2.amazontrust.com
+odesk-prod-portraits.s3.amazonaws.com
 ohlocal-media.s3.amazonaws.com
 opencollective-production.s3-us-west-1.amazonaws.com
 opencollective-production.s3.us-west-1.amazonaws.com
@@ -270,6 +272,7 @@ prime.amazon.eu
 prismic-io.s3.amazonaws.com
 prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
+prod-mkcmsapi.s3.ap-south-1.amazonaws.com
 prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
 prod.us-east-1.sonar.prime-video.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev.pihole0
@@ -295,6 +298,7 @@ s3.ap-southeast-1.amazonaws.com
 s3-eu-west-1.amazonaws.com
 s3-r-w.ap-south-1.amazonaws.com
 s3-r-w.ap-southeast-1.amazonaws.com
+s3-static-content-marketing-us-east-1-prod.s3.amazonaws.com
 s3.us-east-1.amazonaws.com
 s3-us-west-2.amazonaws.com
 sadobe.sell.amazon.in
@@ -355,6 +359,7 @@ unagi.amazon.in
 unagi-eu.amazon.com
 unagi-na.amazon.com
 unifiedsearch.amazonaws.com
+upwork-usw2-prod-assets-static.s3.us-west-2.amazonaws.com
 us-east-1.ccs.amazonaws.com
 us-east-1.console.aws.amazon.com
 us-east-1.signin.aws.amazon.com
