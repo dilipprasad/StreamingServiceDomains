@@ -43,6 +43,12 @@ oca-api.us-east-1.origin.prodaa.netflix.com
 oca-api.us-east-2.origin.prodaa.netflix.com
 oca-api.us-west-2.origin.prodaa.netflix.com
 preapp.prod.partner.netflix.net
+probe-cell4.prod.ftl.netflix.com
+probe-cell5.prod.ftl.netflix.com
+probe-cell6.prod.ftl.netflix.com
+probe-cell7.prod.ftl.netflix.com
+probe-cell8.prod.ftl.netflix.com
+probe-cell9.prod.ftl.netflix.com
 probe-dradis-anycast.prod.ftl.netflix.com
 probe-dradis-aws-only.prod.ftl.netflix.com
 probe-dradis.prod.ftl.netflix.com
