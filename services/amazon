@@ -2,6 +2,7 @@
 774f913e-production-weconv-abee-330827228.us-east-1.elb.amazonaws.com
 9pkplnrgv3.execute-api.us-east-1.amazonaws.com
 a1124629dfa84461f9042accff1d2a42-683ab4ef89547e5f.elb.us-east-1.amazonaws.com
+a3kjhmeh5zdm8a-ats.iot.eu-west-1.amazonaws.com
 a7h4qt7q1f.execute-api.eu-central-1.amazonaws.com
 aan.amazon.ae
 aan.amazon.com
@@ -21,6 +22,7 @@ ab992t7ewg8z.eu.api.amazonvideo.com
 absewfkha8cb.api.amazonvideo.com
 absewfkha8cb.eu.api.amazonvideo.com
 absewfkha8cb.eu.api.amazonvideo.com.pihole0
+absite-mumbai.s3.ap-south-1.amazonaws.com
 abty9w6f2rf8.eu.api.amazonvideo.com
 abty9w6f2rf8.na.api.amazonvideo.com
 abyqxpgk7c4w.eu.api.amazonvideo.com
@@ -65,6 +67,7 @@ andr-22-aftt-645002710.api.amazonvideo.com
 antv-29-skyworthdigital-xstreamsmartbox002-505004009.api.amazonvideo.com
 antv-29-skyworthdigital-xstreamsmartbox002-505004009.eu.api.amazonvideo.com
 anyjcaraak.execute-api.us-east-1.amazonaws.com
+api.amazonalexa.com
 api.amazon.com
 api.amazon.co.uk
 api-amazondevices.amazon.in
@@ -142,6 +145,7 @@ device-messaging-na.amazon.com
 devicemessaging.us-east-1.amazon.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
+dev-to-uploads.s3.amazonaws.com
 docs.aws.amazon.com
 dp-discovery-na-ext.amazon.com
 dp-gw-na.amazon.com
@@ -156,7 +160,9 @@ ecl-europe-prod.s3-eu-central-1.amazonaws.com
 ecx.images-amazon.com
 edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
 edger-edger-ra7qmuyuwxzs-482101627.us-west-2.elb.amazonaws.com
+embracebot.s3.ap-south-1.amazonaws.com
 eu.prism.digital.amazon.dev
+fc-aps1-00-pics-bkt-00.s3.ap-south-1.amazonaws.com
 firs-ta-g7g.amazon.com
 fls-eu.amazon.ae
 fls-eu.amazon.com
@@ -164,6 +170,7 @@ fls-eu.amazon.co.uk
 fls-eu.amazon.in
 fls-na.amazon.com
 f.media-amazon.com
+forumwaproduct.s3.ap-south-1.amazonaws.com
 ftvr-eu.amazon.com
 gallery-rfc.s3.ap-south-1.amazonaws.com
 github-cloud.s3.amazonaws.com
@@ -202,6 +209,7 @@ kca.amazon.com
 kinesis.ap-south-1.amazonaws.com
 kinesis.us-east-1.amazonaws.com
 kinstruments-measurements.s3-external-1.amazonaws.com
+klayschoolslive.s3.ap-south-1.amazonaws.com
 kqd06oflxl.execute-api.eu-west-1.amazonaws.com
 kraken-measurements.s3-external-1.amazonaws.com
 ktpx-eu.amazon.com
@@ -349,6 +357,7 @@ tp.7c52cf103-frontier.amazon.in
 tp.c95e7e602-frontier.amazon.in
 track.amazon.in
 transient-eu.amazon.com
+trendlyne-media-mumbai-new.s3.amazonaws.com
 u03lw25r9l.execute-api.us-east-1.amazonaws.com
 ubuykw.s3.amazonaws.com
 unagi.amazon.ae
@@ -369,6 +378,7 @@ venezia-measurements.s3-external-1.amazonaws.com
 vmediadatav2.s3.ap-south-1.amazonaws.com
 vs.aws.amazon.com
 wakefit-co.s3.ap-south-1.amazonaws.com
+wareiq-assets.s3.amazonaws.com
 wareiq-shopify.s3.amazonaws.com
 watch.amazon.co.jp
 watch.amazon.com
