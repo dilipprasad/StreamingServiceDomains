@@ -153,6 +153,7 @@ dp-rsm-prod.amazon.com
 dtnext--prod-s3-ap--south--1-amazonaws-com.cdn.ampproject.org
 dualstack.apiproxy-http1-873404929.us-west-2.elb.amazonaws.com
 dualstack.ichnaea-web-2-755189838.us-west-2.elb.amazonaws.com
+dzassets.s3.amazonaws.com
 ec2-52-23-111-175.compute-1.amazonaws.com
 ec2.ap-south-1.amazonaws.com
 ec2.us-east-1.amazonaws.com
@@ -216,6 +217,7 @@ ktpx-eu.amazon.com
 kyc2-services-prod20220121150116230400000001.s3.ap-south-1.amazonaws.com
 leftynew.s3.amazonaws.com
 logs.ap-south-1.amazonaws.com
+lumin-resources-production.s3.amazonaws.com
 mads.amazon-adsystem.com
 mads.amazon.com
 mads-eu.amazon.com
@@ -280,6 +282,7 @@ prime.amazon.eu
 prismic-io.s3.amazonaws.com
 prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
+prod-apig-kong-public-alb-1988483029.ap-south-1.elb.amazonaws.com
 prod-mkcmsapi.s3.ap-south-1.amazonaws.com
 prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
 prod.us-east-1.sonar.prime-video.amazon.dev
