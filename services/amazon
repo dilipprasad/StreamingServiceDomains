@@ -126,6 +126,7 @@ completion.amazon.com
 completion.amazon.in
 compute-optimizer.us-east-1.amazonaws.com
 console.aws.amazon.com
+contributionmargin.s3.amazonaws.com
 coursera_assets.s3.amazonaws.com
 coursera-profile-photos.s3.amazonaws.com
 coursera-university-assets.s3.amazonaws.com
@@ -311,6 +312,7 @@ s3-r-w.ap-south-1.amazonaws.com
 s3-r-w.ap-southeast-1.amazonaws.com
 s3-static-content-marketing-us-east-1-prod.s3.amazonaws.com
 s3.us-east-1.amazonaws.com
+s3-us-west-1.amazonaws.com
 s3-us-west-2.amazonaws.com
 sadobe.sell.amazon.in
 s.amazon-adsystem.com
