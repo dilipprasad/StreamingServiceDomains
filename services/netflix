@@ -57,6 +57,7 @@ push.prod.netflix.com.pihole0
 secure.netflix.com
 uiboot.netflix.com
 us-east-1-probe.prod.ftl.netflix.com
+us-east-2-probe.prod.ftl.netflix.com
 us-west-2-probe.prod.ftl.netflix.com
 web.prod.cloud.netflix.com
 www.dradis.netflix.com
