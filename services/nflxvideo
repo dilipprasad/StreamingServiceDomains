@@ -17,6 +17,7 @@ ipv4-c005-bom001-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c005-del001-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c005-del002-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c005-maa001-bhartiairtel-isp.1.oca.nflxvideo.net
+ipv4-c005-maa001-ix.1.oca.nflxvideo.net
 ipv4-c006-del002-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c006-maa001-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c007-del001-bhartiairtel-isp.1.oca.nflxvideo.net
@@ -25,6 +26,7 @@ ipv4-c009-del001-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c010-del001-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c019-maa001-ix.ftl.nflxvideo.net
 ipv4-c020-maa001-ix.ftl.nflxvideo.net
+ipv4-c022-maa001-ix.1.oca.nflxvideo.net
 ipv4-c022-maa001-ix.ftl.nflxvideo.net
 ipv4-c026-maa001-ix.ftl.nflxvideo.net
 ipv4-c027-maa001-ix.1.oca.nflxvideo.net
@@ -39,10 +41,15 @@ ipv6-c021-bom001-ix.1.oca.nflxvideo.net
 ipv6-c022-bom001-ix.1.oca.nflxvideo.net
 ipv6-c023-bom001-ix.1.oca.nflxvideo.net
 ipv6-c024-bom001-ix.1.oca.nflxvideo.net
+ipv6-c029-bom001-ix.1.oca.nflxvideo.net
 ipv6-c030-bom001-ix.1.oca.nflxvideo.net
+ipv6-c031-bom001-ix.1.oca.nflxvideo.net
+ipv6-c032-bom001-ix.1.oca.nflxvideo.net
 ipv6-c033-bom001-ix.1.oca.nflxvideo.net
 ipv6-c034-bom001-ix.1.oca.nflxvideo.net
 ipv6-c041-bom001-ix.1.oca.nflxvideo.net
 ipv6-c043-bom001-ix.1.oca.nflxvideo.net
 ipv6-c044-bom001-ix.1.oca.nflxvideo.net
+ipv6-c045-bom001-ix.1.oca.nflxvideo.net
+ipv6-c046-bom001-ix.1.oca.nflxvideo.net
 *.nflxvideo.net
