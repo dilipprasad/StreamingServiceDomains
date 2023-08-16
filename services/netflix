@@ -23,6 +23,7 @@ ios.prod.dradis.netflix.com
 ios.prod.ftl.netflix.com
 ios.prod.ftl.netflix.com.pihole0
 ios.prod.http1.netflix.com
+m.netflix.com
 mobile-ixanycast.ftl.netflix.com
 mobile.prod.dradis.netflix.com
 netflix.com
@@ -33,6 +34,7 @@ nflxso.net
 nflxvideo.net
 nrdp52-appboot.netflix.com
 nrdp60-appboot.netflix.com
+nrdp70-appboot.netflix.com
 nrdp-ipv6.prod.ftl.netflix.com
 nrdp.nccp.netflix.com
 nrdp.prod.cloud.netflix.com
