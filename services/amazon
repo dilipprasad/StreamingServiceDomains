@@ -128,6 +128,7 @@ client.rum.us-east-1.amazonaws.com
 cloudfront-labs.amazonaws.com
 c.media-amazon.com
 cognito-identity.ap-northeast-1.amazonaws.com
+cognito-identity.ap-southeast-1.amazonaws.com
 cognito-identity.us-east-1.amazonaws.com
 completion.amazon.ae
 completion.amazon.com
@@ -139,6 +140,7 @@ coursera_assets.s3.amazonaws.com
 coursera-profile-photos.s3.amazonaws.com
 coursera-university-assets.s3.amazonaws.com
 crl.rootca1.amazontrust.com
+crm-platform.s3.ap-southeast-1.amazonaws.com
 custpostimages.s3.ap-south-1.amazonaws.com
 cz15y20kg2.execute-api.us-east-1.amazonaws.com
 data.amazon.ae
@@ -159,9 +161,11 @@ docs.aws.amazon.com
 dp-discovery-na-ext.amazon.com
 dp-gw-na.amazon.com
 dp-rsm-prod.amazon.com
+drive.amazonaws.com
 dtnext--prod-s3-ap--south--1-amazonaws-com.cdn.ampproject.org
 dualstack.apiproxy-http1-873404929.us-west-2.elb.amazonaws.com
 dualstack.ichnaea-web-2-755189838.us-west-2.elb.amazonaws.com
+dunzo.s3-ap-southeast-1.amazonaws.com
 dzassets.s3.amazonaws.com
 ec2-52-23-111-175.compute-1.amazonaws.com
 ec2.ap-south-1.amazonaws.com
@@ -217,6 +221,7 @@ ir-na.amazon-adsystem.com
 kaizen-static.s3.ap-south-1.amazonaws.com
 kca.amazon.com
 kinesis.ap-south-1.amazonaws.com
+kinesis.ap-southeast-1.amazonaws.com
 kinesis.us-east-1.amazonaws.com
 kinstruments-measurements.s3-external-1.amazonaws.com
 klayschoolslive.s3.ap-south-1.amazonaws.com
@@ -244,6 +249,7 @@ midway-auth.amazon.com
 m.media-amazon.com
 m-media--amazon-com.cdn.ampproject.org
 m.media-amazon.com.pihole0
+mobileanalytics.us-east-1.amazonaws.com
 mobile-app-expan.amazon.com
 monitoring.us-east-1.amazonaws.com
 moxie-concierge.s3.amazonaws.com
@@ -258,6 +264,7 @@ mykartavya-cms-prod.s3.ap-south-1.amazonaws.com
 na12-binary-objects.s3.amazonaws.com
 nalandab2b-prod-elb01-1706732909.ap-south-1.elb.amazonaws.com
 nalanda-prod-assets.s3.ap-south-1.amazonaws.com
+nginx-20200827210728112800000002-674952323.ap-south-1.elb.amazonaws.com
 nit300-nit300-0.eu.api.amazonvideo.com
 nit300-nit300-1.eu.api.amazonvideo.com
 nit300-nit300-2.eu.api.amazonvideo.com
@@ -325,6 +332,7 @@ s3-static-content-marketing-us-east-1-prod.s3.amazonaws.com
 s3.us-east-1.amazonaws.com
 s3-us-west-1.amazonaws.com
 s3-us-west-2.amazonaws.com
+s3-w.us-east-1.amazonaws.com
 sadobe.sell.amazon.in
 s.amazon-adsystem.com
 sars.amazon.com
@@ -342,6 +350,7 @@ sns.us-east-1.amazonaws.com
 softwareupdates.amazon.com
 solucia.s3.us-east-2.amazonaws.com
 spectrum.s3.amazonaws.com
+splash-screen-animations-customer-app.s3.ap-southeast-1.amazonaws.com
 spns-kong-alb-1531584902.ap-southeast-1.elb.amazonaws.com
 sq-tungsten-ts.amazon-adsystem.com
 ssl-images-amazon.com

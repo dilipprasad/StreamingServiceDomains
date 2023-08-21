@@ -1,11 +1,16 @@
 a.config.skype.com
+a-flightproxy-asse-01-skype.cloudapp.net
+a-flightproxy-jpea-01-skype.cloudapp.net
 apac.cc.skype.com
 api3.cc.skype.com
+api3-cc-skype.trafficmanager.net
 api.conv.skype.com
 api.flightproxy.skype.com
+api-flightproxy-skype.trafficmanager.net
 api.teams.skype.com
 b.config.skype.com
 cc-apac-skype.trafficmanager.net
+cc-asse-09-skype.cloudapp.net
 cc-jpea-08-skype.cloudapp.net
 cc-jpwe-07-skype.cloudapp.net
 cc-krce-09-skype.cloudapp.net
@@ -21,6 +26,8 @@ lw.skype.com
 noam.cc.skype.com
 open-ai-connect.skype.com
 prod.registrar.skype.com
+root.skype-edf.akadns.net
+sea.notifications.skype.com
 skypeassets.com
 skype.com
 skypedata.akadns.net

@@ -17,6 +17,7 @@ fast.dradis.netflix.com
 ichnaea.netflix.com
 ichnaea-web.netflix.com
 ios-anycast.prod.ftl.netflix.com
+ios-anycast.prod.ftl.netflix.com.pihole0
 ios.ngp.prod.cloud.netflix.com
 ios.prod.cloud.netflix.com
 ios.prod.dradis.netflix.com
