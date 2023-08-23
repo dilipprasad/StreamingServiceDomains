@@ -283,6 +283,8 @@ opencollective-production.s3.us-west-1.amazonaws.com
 origin-amazonpay.amazon.in
 origin-completion.amazon.in
 ota-production-bucket.s3.ap-south-1.amazonaws.com
+p47r3qkl5raepa5flsczs7khqq.appsync-api.eu-west-1.amazonaws.com
+p47r3qkl5raepa5flsczs7khqq.appsync-realtime-api.eu-west-1.amazonaws.com
 passport.amazon.jobs
 passport.amazon.work
 pay.amazon.in
