@@ -13,6 +13,7 @@ aax-eu.amazon-adsystem.com
 aax-eu.amazon.ae
 aax-eu.amazon.in
 aax-eu-retail-direct.amazon-adsystem.com
+aax-fe-sin.amazon-adsystem.com
 aax-us.amazon-adsystem.com
 aax-us-east.amazon-adsystem.com
 aax-us-east-retail-direct.amazon.com
@@ -201,7 +202,9 @@ ib-downloads-official.s3.amazonaws.com
 idc-service-oz-eu.amazon.com
 idmb-app-chat-global-proxy-proto-1114919025.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi02-1415306822.ap-south-1.elb.amazonaws.com
+idmb-app-chat-global-xiaomi02-1415306822.ap-south-1.elb.amazonaws.com.pihole0
 idmb-app-chat-global-xiaomi03new-426797692.ap-south-1.elb.amazonaws.com
+idmb-app-chat-global-xiaomi03new-426797692.ap-south-1.elb.amazonaws.com.pihole0
 idmb-app-chat-global-xiaomi04-1301562198.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi05-1961044139.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi06-2047145834.ap-south-1.elb.amazonaws.com
@@ -237,6 +240,7 @@ mads.amazon-adsystem.com
 mads.amazon.com
 mads-eu.amazon.com
 mag-eu.amazon.com
+marketing-image-production.s3.amazonaws.com
 mas-ext-eu.amazon.com
 mas-sdk.amazon.com
 match-visualsearch-in.amazon.com
@@ -305,6 +309,7 @@ privacyguardbanners.s3.amazonaws.com
 prod-1.eu-west-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
 prod-apig-kong-public-alb-1988483029.ap-south-1.elb.amazonaws.com
+prod.eu-west-1.mdcs.mshop.amazon.dev
 prod-mkcmsapi.s3.ap-south-1.amazonaws.com
 prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
 prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
@@ -329,6 +334,7 @@ s3-ap-south-1.amazonaws.com
 s3.ap-south-1.amazonaws.com
 s3-ap-southeast-1.amazonaws.com
 s3.ap-southeast-1.amazonaws.com
+s3-ap-southeast-1-w.amazonaws.com
 s3-eu-west-1.amazonaws.com
 s3-r-w.ap-south-1.amazonaws.com
 s3-r-w.ap-southeast-1.amazonaws.com
@@ -422,5 +428,6 @@ www.amazon.com
 www.amazon.de
 www.amazon.in
 xqgoa1uunl.execute-api.us-west-2.amazonaws.com
+zee5imagerefresh.s3.ap-south-1.amazonaws.com
 z-na.amazon-adsystem.com
 z-na.associates-amazon.com
