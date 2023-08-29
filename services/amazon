@@ -174,6 +174,7 @@ ec2.ap-south-1.amazonaws.com
 ec2.us-east-1.amazonaws.com
 ecl-europe-prod.s3-eu-central-1.amazonaws.com
 ecx.images-amazon.com
+edger-edger-1bnzgiwi71hrk-784259727.us-east-2.elb.amazonaws.com
 edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
 edger-edger-ra7qmuyuwxzs-482101627.us-west-2.elb.amazonaws.com
 embracebot.s3.ap-south-1.amazonaws.com
@@ -275,6 +276,7 @@ nit300-nit300-0.eu.api.amazonvideo.com
 nit300-nit300-1.eu.api.amazonvideo.com
 nit300-nit300-2.eu.api.amazonvideo.com
 nit300-nit300-4.eu.api.amazonvideo.com
+noise-images.s3.ap-south-1.amazonaws.com
 notion-emojis.s3-us-west-2.amazonaws.com
 ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
