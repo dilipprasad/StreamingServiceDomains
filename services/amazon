@@ -11,6 +11,7 @@ aan.amazon.in
 aax.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
 aax-eu.amazon.ae
+aax-eu.amazon.co.uk
 aax-eu.amazon.in
 aax-eu-retail-direct.amazon-adsystem.com
 aax-fe-sin.amazon-adsystem.com
@@ -134,6 +135,7 @@ cognito-identity.ap-southeast-1.amazonaws.com
 cognito-identity.us-east-1.amazonaws.com
 completion.amazon.ae
 completion.amazon.com
+completion.amazon.co.uk
 completion.amazon.in
 compute-optimizer.us-east-1.amazonaws.com
 console.aws.amazon.com
@@ -427,6 +429,7 @@ wl.amazon-dss.com
 ws-na.amazon-adsystem.com
 www.amazon.ae
 www.amazon.com
+www.amazon.co.uk
 www.amazon.de
 www.amazon.in
 xqgoa1uunl.execute-api.us-west-2.amazonaws.com
