@@ -280,6 +280,7 @@ nit300-nit300-2.eu.api.amazonvideo.com
 nit300-nit300-4.eu.api.amazonvideo.com
 noise-images.s3.ap-south-1.amazonaws.com
 notion-emojis.s3-us-west-2.amazonaws.com
+oceanjar-new.s3.ap-south-1.amazonaws.com
 ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
 ocsp.rootca1.amazontrust.com
@@ -297,6 +298,7 @@ p47r3qkl5raepa5flsczs7khqq.appsync-realtime-api.eu-west-1.amazonaws.com
 passport.amazon.jobs
 passport.amazon.work
 pay.amazon.in
+payment.amazon.in
 pc-quiz.s3.us-east-2.amazonaws.com
 phd.aws.amazon.com
 pinpoint.ap-northeast-1.amazonaws.com
@@ -331,6 +333,7 @@ ram.us-east-1.amazonaws.com
 read.amazon.in
 remoteconfig-eu.amazon.com
 resolver-msg-xiaomi-net-665721575.ap-south-1.elb.amazonaws.com
+revvselfdrivecar.s3-us-west-2.amazonaws.com
 rms-alb-1123132807.ap-south-1.elb.amazonaws.com
 s3.amazonaws.com
 s3-ap-northeast-1.amazonaws.com
@@ -382,6 +385,7 @@ sts.me-south-1.amazonaws.com
 summerevent2023.s3.us-west-2.amazonaws.com
 support.console.aws.amazon.com
 support.us-east-1.amazonaws.com
+sync-amazon.ads.yieldmo.com
 syncelb-1292340544.ap-southeast-1.elb.amazonaws.com
 talent500-frontend-cb.s3.ap-south-1.amazonaws.com
 talent500-profile-images-prod-cb.s3.amazonaws.com
