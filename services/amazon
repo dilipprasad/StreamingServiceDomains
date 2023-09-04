@@ -1,6 +1,7 @@
 03nwj0csy5.execute-api.ap-south-1.amazonaws.com
 03y0s318gk.execute-api.ap-south-1.amazonaws.com
 774f913e-production-weconv-abee-330827228.us-east-1.elb.amazonaws.com
+8nuw5452x5.execute-api.us-east-2.amazonaws.com
 9pkplnrgv3.execute-api.us-east-1.amazonaws.com
 a1124629dfa84461f9042accff1d2a42-683ab4ef89547e5f.elb.us-east-1.amazonaws.com
 a3kjhmeh5zdm8a-ats.iot.eu-west-1.amazonaws.com
@@ -126,6 +127,7 @@ cdn-a.amazon-adsystem.com
 cdn.assets.as2.amazonaws.com
 cdws.us-east-1.amazonaws.com
 ce.us-east-1.amazonaws.com
+chaloapp-images.s3.ap-south-1.amazonaws.com
 checkip.amazonaws.com
 client.rum.us-east-1.amazonaws.com
 cloudfront-labs.amazonaws.com
@@ -145,6 +147,7 @@ coursera-profile-photos.s3.amazonaws.com
 coursera-university-assets.s3.amazonaws.com
 crl.rootca1.amazontrust.com
 crm-platform.s3.ap-southeast-1.amazonaws.com
+crt.r2m01.amazontrust.com
 custpostimages.s3.ap-south-1.amazonaws.com
 cz15y20kg2.execute-api.us-east-1.amazonaws.com
 data.amazon.ae
@@ -169,6 +172,7 @@ drive.amazonaws.com
 dtnext--prod-s3-ap--south--1-amazonaws-com.cdn.ampproject.org
 dualstack.apiproxy-http1-873404929.us-west-2.elb.amazonaws.com
 dualstack.ichnaea-web-2-755189838.us-west-2.elb.amazonaws.com
+dualstack.viapp-viapp-1aiu3dm4gl8n2-1643951753.ap-south-1.elb.amazonaws.com
 dunzo.s3-ap-southeast-1.amazonaws.com
 dzassets.s3.amazonaws.com
 ec2-52-23-111-175.compute-1.amazonaws.com
@@ -182,6 +186,7 @@ edger-edger-ra7qmuyuwxzs-482101627.us-west-2.elb.amazonaws.com
 embracebot.s3.ap-south-1.amazonaws.com
 eu.prism.digital.amazon.dev
 fc-aps1-00-pics-bkt-00.s3.ap-south-1.amazonaws.com
+fc-use1-00-pics-bkt-00.s3.amazonaws.com
 firs-ta-g7g.amazon.com
 fls-eu.amazon.ae
 fls-eu.amazon.com
@@ -196,10 +201,14 @@ github-cloud.s3.amazonaws.com
 github-production-user-asset-6210df.s3.amazonaws.com
 global.ccs.amazonaws.com
 global.console.aws.amazon.com
+gobikes-prod-public.s3.ap-south-1.amazonaws.com
+gobikes-stage-public.s3.ap-south-1.amazonaws.com
 godel-amazon-assets.s3.amazonaws.com
+healthifyme-public.s3-ap-southeast-1.amazonaws.com
 health.us-east-1.amazonaws.com
 hiya-dist.s3.us-west-2.amazonaws.com
 hjszhb9uk3.execute-api.eu-west-1.amazonaws.com
+hme-app-assets.s3.ap-south-1.amazonaws.com
 hv-camera-web-sg.s3-ap-southeast-1.amazonaws.com
 ib-downloads-official.s3.amazonaws.com
 idc-service-oz-eu.amazon.com
@@ -225,6 +234,8 @@ in.amazonforum.com
 internal-cdn.amazon.com
 ipv6.unagi-na.amazon.com
 ir-na.amazon-adsystem.com
+j4fbanners.s3.eu-west-2.amazonaws.com
+jp-remote-assets.s3.ap-south-1.amazonaws.com
 kaizen-static.s3.ap-south-1.amazonaws.com
 kca.amazon.com
 kinesis.ap-south-1.amazonaws.com
@@ -283,6 +294,7 @@ notion-emojis.s3-us-west-2.amazonaws.com
 oceanjar-new.s3.ap-south-1.amazonaws.com
 ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
+ocsp.r2m03.amazontrust.com
 ocsp.rootca1.amazontrust.com
 ocsp.rootg2.amazontrust.com
 odesk-prod-portraits.s3.amazonaws.com
@@ -304,6 +316,7 @@ phd.aws.amazon.com
 pinpoint.ap-northeast-1.amazonaws.com
 pinpoint.us-east-1.amazonaws.com
 pirple.s3.amazonaws.com
+playtht-website-assets.s3.amazonaws.com
 pluralsight-assets.s3.amazonaws.com
 pluralsight-assets.s3.us-east-1.amazonaws.com
 porter-customer-app-promo-images-prod.s3.amazonaws.com
@@ -372,6 +385,7 @@ spns-kong-alb-1531584902.ap-southeast-1.elb.amazonaws.com
 sq-tungsten-ts.amazon-adsystem.com
 ssl-images-amazon.com
 static.siege-amazon.com
+staticxx.s3.amazonaws.com
 sts.af-south-1.amazonaws.com
 sts.ap-east-1.amazonaws.com
 sts.ap-south-2.amazonaws.com
@@ -393,6 +407,7 @@ talent500-public-prod-cb.s3.amazonaws.com
 talent500-public-prod-cb.s3.ap-south-1.amazonaws.com
 target.aws.amazon.com
 teamblindstatics.s3.ap-northeast-1.amazonaws.com
+testcub1.s3.amazonaws.com
 thingbits-in.s3.ap-south-1.amazonaws.com
 thinkific-import.s3.amazonaws.com
 threeplr-ab8swqfd2t98.api.amazonvideo.com
@@ -430,6 +445,7 @@ watch.amazon.com
 watch.amazon.co.uk
 watch.amazon.de
 wl.amazon-dss.com
+wms-na.amazon-adsystem.com
 ws-na.amazon-adsystem.com
 www.amazon.ae
 www.amazon.com
