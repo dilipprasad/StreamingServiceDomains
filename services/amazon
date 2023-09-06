@@ -128,6 +128,7 @@ browse-query-editor-na.aka.amazon.com
 browser-plugin.amazon-corp.com
 c.amazon-adsystem.com
 capp-images.s3.ap-south-1.amazonaws.com
+catalog-paytmimg-mb.s3.amazonaws.com
 cdn-a.amazon-adsystem.com
 cdn.assets.as2.amazonaws.com
 cdws.us-east-1.amazonaws.com
@@ -237,6 +238,7 @@ idmb-app-chat-global-xiaomi07-1818086890.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi08-2123402879.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi09-1256654958.ap-south-1.elb.amazonaws.com
 idmb-app-chat-global-xiaomi10-407281533.ap-south-1.elb.amazonaws.com
+idmb-app-chat-global-xiaomi10-407281533.ap-south-1.elb.amazonaws.com.pihole0
 idmb-app-chat-global-xiaomi-1108233833.ap-south-1.elb.amazonaws.com
 idp-eu-west-1.federate.amazon.com
 idp.federate.amazon.com
@@ -281,6 +283,7 @@ mads.amazon-adsystem.com
 mads.amazon.com
 mads-eu.amazon.com
 mag-eu.amazon.com
+map-cma-images-production.s3-ap-south-1.amazonaws.com
 marketing-image-production.s3.amazonaws.com
 mas-ext-eu.amazon.com
 mas-sdk.amazon.com
