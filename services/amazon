@@ -151,6 +151,7 @@ completion.amazon.in
 compute-optimizer.us-east-1.amazonaws.com
 console.aws.amazon.com
 contributionmargin.s3.amazonaws.com
+cosmofeed-other-assets.s3.us-east-2.amazonaws.com
 coursera_assets.s3.amazonaws.com
 coursera-profile-photos.s3.amazonaws.com
 coursera-university-assets.s3.amazonaws.com
@@ -224,6 +225,7 @@ hiya-dist.s3.us-west-2.amazonaws.com
 hjszhb9uk3.execute-api.eu-west-1.amazonaws.com
 hme-app-assets.s3.ap-south-1.amazonaws.com
 hv-camera-web-sg.s3-ap-southeast-1.amazonaws.com
+iansportalimages-s3-amazonaws-com.cdn.ampproject.org
 ib-downloads-official.s3.amazonaws.com
 idc-service-oz-eu.amazon.com
 idmb-app-chat-global-proxy-proto-1114919025.ap-south-1.elb.amazonaws.com
