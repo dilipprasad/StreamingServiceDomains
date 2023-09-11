@@ -18,6 +18,7 @@ cc-usea-06-skype.cloudapp.net
 config.edge.skype.com
 config.edge.skype.com.pihole0
 config.edge.skype.com.trafficmanager.net
+config.edge.skype.net
 edge.skype.com
 edge-skype-com.s-0001.s-msedge.net
 go.trouter.skype.com
