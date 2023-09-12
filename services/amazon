@@ -224,6 +224,7 @@ health.us-east-1.amazonaws.com
 hiya-dist.s3.us-west-2.amazonaws.com
 hjszhb9uk3.execute-api.eu-west-1.amazonaws.com
 hme-app-assets.s3.ap-south-1.amazonaws.com
+htcms--prod--images-s3-ap--south--1-amazonaws-com.cdn.ampproject.org
 hv-camera-web-sg.s3-ap-southeast-1.amazonaws.com
 iansportalimages-s3-amazonaws-com.cdn.ampproject.org
 ib-downloads-official.s3.amazonaws.com
@@ -326,6 +327,13 @@ na12-binary-objects.s3.amazonaws.com
 nalandab2b-prod-elb01-1706732909.ap-south-1.elb.amazonaws.com
 nalanda-prod-assets.s3.ap-south-1.amazonaws.com
 nginx-20200827210728112800000002-674952323.ap-south-1.elb.amazonaws.com
+nit200-dns-ct10.api.amazonvideo.com
+nit200-dns-ct11.api.amazonvideo.com
+nit200-dns-ct12.api.amazonvideo.com
+nit200-dns-ct7.api.amazonvideo.com
+nit200-dns-ct8.api.amazonvideo.com
+nit200-dns-ct9.api.amazonvideo.com
+nit200-nit200-0.api.amazonvideo.com
 nit300-nit300-0.eu.api.amazonvideo.com
 nit300-nit300-1.eu.api.amazonvideo.com
 nit300-nit300-2.eu.api.amazonvideo.com
