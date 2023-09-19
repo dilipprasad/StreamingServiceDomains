@@ -25,7 +25,9 @@ aax-us-pdx.amazon-adsystem.com
 ab4sp6snqrny.eu.api.amazonvideo.com
 ab77a657a6cg.eu.api.amazonvideo.com
 ab992t7ewg8z.api.amazonvideo.com
+ab992t7ewg8z.api.amazonvideo.com.pihole0
 ab992t7ewg8z.eu.api.amazonvideo.com
+ab992t7ewg8z.eu.api.amazonvideo.com.pihole0
 absewfkha8cb.api.amazonvideo.com
 absewfkha8cb.eu.api.amazonvideo.com
 absewfkha8cb.eu.api.amazonvideo.com.pihole0
@@ -82,6 +84,7 @@ anyjcaraak.execute-api.us-east-1.amazonaws.com
 api.amazonalexa.com
 api.amazon.com
 api.amazon.co.uk
+api.amazon.co.uk.pihole0
 api-amazondevices.amazon.in
 api.amazon.in
 api.amazon.in.pihole0
@@ -128,6 +131,7 @@ browse-query-editor-na.aka.amazon.com
 browser-plugin.amazon-corp.com
 c.amazon-adsystem.com
 capp-images.s3.ap-south-1.amazonaws.com
+c.aps.amazon-adsystem.com
 catalog-paytmimg-mb.s3.amazonaws.com
 cdn-a.amazon-adsystem.com
 cdn.assets.as2.amazonaws.com
@@ -278,6 +282,7 @@ _ldap._tcp.dc._msdcs.ant.amazon.com
 _ldap._tcp.pdx-vpn._sites.ant.amazon.com
 _ldap._tcp.pdx-vpn._sites.dc._msdcs.amazon.com
 _ldap._tcp.pdx-vpn._sites.dc._msdcs.ant.amazon.com
+learnbay-wb.s3.ap-south-1.amazonaws.com
 leftynew.s3.amazonaws.com
 logs.ap-south-1.amazonaws.com
 lumin-resources-production.s3.amazonaws.com
@@ -487,6 +492,7 @@ unagi.amazon.co.uk
 unagi.amazon.fr
 unagi.amazon.in
 unagi-eu.amazon.com
+unagi-eu.amazon.com.pihole0
 unagi-na.amazon.com
 unifiedsearch.amazonaws.com
 upwork-usw2-prod-assets-static.s3.us-west-2.amazonaws.com
