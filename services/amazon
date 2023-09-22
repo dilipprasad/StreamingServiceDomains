@@ -139,6 +139,7 @@ cdws.us-east-1.amazonaws.com
 ce.us-east-1.amazonaws.com
 chaloapp-images.s3.ap-south-1.amazonaws.com
 checkip.amazonaws.com
+cl-cdn-images.s3.ap-south-1.amazonaws.com
 client.rum.us-east-1.amazonaws.com
 cloudfront-labs.amazonaws.com
 c.media-amazon.com
@@ -257,6 +258,7 @@ imagine-watch.s3.ap-south-1.amazonaws.com
 in.amazonforum.com
 inside.amazon.com
 internal-cdn.amazon.com
+invoice-upload.s3.ap-south-1.amazonaws.com
 ipv6.unagi-na.amazon.com
 ir-na.amazon-adsystem.com
 j4fbanners.s3.eu-west-2.amazonaws.com
