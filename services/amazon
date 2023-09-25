@@ -1,5 +1,6 @@
 03nwj0csy5.execute-api.ap-south-1.amazonaws.com
 03y0s318gk.execute-api.ap-south-1.amazonaws.com
+3b265effb709412a8b5988c98756fda0.mediatailor.us-east-1.amazonaws.com
 774f913e-production-weconv-abee-330827228.us-east-1.elb.amazonaws.com
 85ukawlpcf.execute-api.us-west-2.amazonaws.com
 8nuw5452x5.execute-api.us-east-2.amazonaws.com
@@ -7,6 +8,7 @@
 a1124629dfa84461f9042accff1d2a42-683ab4ef89547e5f.elb.us-east-1.amazonaws.com
 a3kjhmeh5zdm8a-ats.iot.eu-west-1.amazonaws.com
 a7h4qt7q1f.execute-api.eu-central-1.amazonaws.com
+aa1ce778ea0544e4aa7429bc8a16eb1c.mediatailor.us-east-1.amazonaws.com
 aan.amazon.ae
 aan.amazon.com
 aan.amazon.in
@@ -41,6 +43,7 @@ acm-pca.us-east-2.amazonaws.com
 addresssuggest-eu.amazon.com
 addshoppers.s3.amazonaws.com
 ads-setu-proxy-eu.amazon.com
+ago-item-storage.s3.amazonaws.com
 ait-help.playcannonball.net.s3.amazonaws.com
 alb-ext-ingress-group-95161440.us-east-1.elb.amazonaws.com
 alb-fc-babygear-buyguide-app-1493012510.ap-south-1.elb.amazonaws.com
@@ -102,6 +105,7 @@ ap-northeast-1.signin.aws.amazon.com
 ap-northeast-3.console.aws.amazon.com
 appstore-tv-prod-eu.amazon.com
 appx.transient.amazon.in
+ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com
 ap-south-1.ccs.amazonaws.com
 ap-south-1.console.aws.amazon.com
 ap-south-1.secure-fields.prod.lumos.amazon.dev
@@ -129,10 +133,12 @@ bitspilani-alb-1421899025.ap-south-1.elb.amazonaws.com
 boxxact-netcoresmartech-com-772936059.ap-south-1.elb.amazonaws.com
 browse-query-editor-na.aka.amazon.com
 browser-plugin.amazon-corp.com
+caeee1dd0eea4dde9429074e7f8e96bb.mediatailor.us-east-1.amazonaws.com
 c.amazon-adsystem.com
 capp-images.s3.ap-south-1.amazonaws.com
 c.aps.amazon-adsystem.com
 catalog-paytmimg-mb.s3.amazonaws.com
+cde-ta-g7g.amazon.com
 cdn-a.amazon-adsystem.com
 cdn.assets.as2.amazonaws.com
 cdws.us-east-1.amazonaws.com
@@ -204,6 +210,7 @@ edger-edger-ra7qmuyuwxzs-482101627.us-west-2.elb.amazonaws.com
 embracebot.s3.ap-south-1.amazonaws.com
 epi-mapping-tools-na-iad.iad.proxy.amazon.com
 eu.prism.digital.amazon.dev
+event.mshopbugsnag.irm.amazon.dev
 fc-aps1-00-pics-bkt-00.s3.ap-south-1.amazonaws.com
 fc-use1-00-pics-bkt-00.s3.amazonaws.com
 firehose.us-west-2.amazonaws.com
@@ -267,6 +274,7 @@ kaizen-static.s3.ap-south-1.amazonaws.com
 kca.amazon.com
 _kerberos._tcp.dc._msdcs.ant.amazon.com
 _kerberos._tcp.pdx-vpn._sites.dc._msdcs.ant.amazon.com
+kindle-digital-delivery.amazon.com
 kinesis.ap-south-1.amazonaws.com
 kinesis.ap-southeast-1.amazonaws.com
 kinesis.us-east-1.amazonaws.com
@@ -356,6 +364,7 @@ ocsp.rootg2.amazontrust.com
 odesk-prod-portraits.s3.amazonaws.com
 ohlocal-media.s3.amazonaws.com
 ola-docyard-central.s3.amazonaws.com
+ola-docyard-consumer-api.s3.ap-southeast-1.amazonaws.com
 opencollective-production.s3-us-west-1.amazonaws.com
 opencollective-production.s3.us-west-1.amazonaws.com
 origin-amazonpay.amazon.in
@@ -385,13 +394,16 @@ prime.amazon.eu
 prismic-io.s3.amazonaws.com
 privacyguardbanners.s3.amazonaws.com
 prod-1.eu-west-1.mdcs.mshop.amazon.dev
+prod-1.us-east-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
 prod-apig-kong-public-alb-1988483029.ap-south-1.elb.amazonaws.com
 prod.clientvpn.amazon-corp.com
+prod.eu-west-1.library-relay.kindle.amazon.dev
 prod.eu-west-1.mdcs.mshop.amazon.dev
 prod-mkcmsapi.s3.ap-south-1.amazonaws.com
 prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
 prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
+prod.us-east-1.mystique.digital-books.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev.pihole0
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
@@ -436,6 +448,7 @@ securityhub.us-east-1.amazonaws.com
 sellercentral.amazon.in
 servicecatalog-appregistry.ap-south-1.amazonaws.com
 servicecatalog-appregistry.us-east-1.amazonaws.com
+session.mshopbugsnag.irm.amazon.dev
 siege-amazon.com
 signin.aws.amazon.com
 smatbot.s3.amazonaws.com
