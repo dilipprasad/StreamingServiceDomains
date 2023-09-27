@@ -308,6 +308,7 @@ mas-sdk.amazon.com
 match-visualsearch-in.amazon.com
 media-amazon.com
 media.amazon.map.fastly.net
+media-tuko.s3.eu-central-1.amazonaws.com
 meesho-supply-v2.s3.ap-southeast-1.amazonaws.com
 metrics.media-amazon.com
 mfilterit-lb-02-693581885.us-west-2.elb.amazonaws.com
@@ -429,6 +430,7 @@ s3.ap-south-1.amazonaws.com
 s3-ap-southeast-1.amazonaws.com
 s3.ap-southeast-1.amazonaws.com
 s3-ap-southeast-1-w.amazonaws.com
+s3.eu-central-1.amazonaws.com
 s3-eu-west-1.amazonaws.com
 s3-r-w.ap-south-1.amazonaws.com
 s3-r-w.ap-southeast-1.amazonaws.com
@@ -461,6 +463,7 @@ spns-kong-alb-1531584902.ap-southeast-1.elb.amazonaws.com
 sqs.us-west-2.amazonaws.com
 sq-tungsten-ts.amazon-adsystem.com
 ssl-images-amazon.com
+static-42andpark-com.s3-us-west-2.amazonaws.com
 static.siege-amazon.com
 staticxx.s3.amazonaws.com
 sts.af-south-1.amazonaws.com
