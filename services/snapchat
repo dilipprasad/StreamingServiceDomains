@@ -5,6 +5,8 @@ ap-south-1.aws.duplex.snapchat.com
 asia-south1-gcp.api.snapchat.com
 asia-southeast1-gcp.api.snapchat.com
 aws.api.snapchat.com
+aws.duplex.snapchat.com
+aws-proxy-gcp.api.snapchat.com
 feelinsonice.appspot.com
 feelinsonice-hrd.appspot.com
 gcp.api.snapchat.com
@@ -17,6 +19,7 @@ sc-prod.net
 snapads.com
 snapchat.com
 snap-dev.net
+topic-sticker-vending.snapchat.com
 tr.snapchat.com
 us-central1-gcp.api.snapchat.com
 us-east1-aws.api.snapchat.com

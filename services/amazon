@@ -362,6 +362,7 @@ ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
 ocsp.r2m03.amazontrust.com
 ocsp.rootca1.amazontrust.com
+ocsp.rootca3.amazontrust.com
 ocsp.rootg2.amazontrust.com
 odesk-prod-portraits.s3.amazonaws.com
 ohlocal-media.s3.amazonaws.com
@@ -444,6 +445,7 @@ sadobe.sell.amazon.in
 s.amazon-adsystem.com
 sars.amazon.com
 sars-eu.amazon.com
+scrumorg-website-prod.s3.amazonaws.com
 sea-orca.amazon.com
 search-dxccom-l5orjvcxoibu4hsudcrqyuyphy.us-east-1.es.amazonaws.com
 securityhub.ap-south-1.amazonaws.com
@@ -480,6 +482,7 @@ sts.me-south-1.amazonaws.com
 summerevent2023.s3.us-west-2.amazonaws.com
 support.console.aws.amazon.com
 support.us-east-1.amazonaws.com
+swirepay-prod.s3.ap-south-1.amazonaws.com
 sync-amazon.ads.yieldmo.com
 syncelb-1292340544.ap-southeast-1.elb.amazonaws.com
 talent500-frontend-cb.s3.ap-south-1.amazonaws.com
@@ -500,6 +503,7 @@ todo-ta-g7g.amazon.com
 tp.7c52cf103-frontier.amazon.in
 tp.c95e7e602-frontier.amazon.in
 track.amazon.in
+transient.amazon.com
 transient-eu.amazon.com
 trendlyne-media-mumbai-new.s3.amazonaws.com
 u03lw25r9l.execute-api.us-east-1.amazonaws.com
