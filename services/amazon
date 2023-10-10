@@ -3,6 +3,7 @@
 3b265effb709412a8b5988c98756fda0.mediatailor.us-east-1.amazonaws.com
 774f913e-production-weconv-abee-330827228.us-east-1.elb.amazonaws.com
 85ukawlpcf.execute-api.us-west-2.amazonaws.com
+8fougdi4d7.execute-api.us-east-1.amazonaws.com
 8nuw5452x5.execute-api.us-east-2.amazonaws.com
 9pkplnrgv3.execute-api.us-east-1.amazonaws.com
 a1124629dfa84461f9042accff1d2a42-683ab4ef89547e5f.elb.us-east-1.amazonaws.com
@@ -14,6 +15,7 @@ aan.amazon.com
 aan.amazon.in
 aax.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
+aax-eu.amazon-adsystem.com.pihole0
 aax-eu.amazon.ae
 aax-eu.amazon.co.uk
 aax-eu.amazon.in
@@ -87,6 +89,7 @@ antv-29-skyworthdigital-xstreamsmartbox002-505004009.eu.api.amazonvideo.com
 anyjcaraak.execute-api.us-east-1.amazonaws.com
 api.amazonalexa.com
 api.amazon.com
+api.amazon.com.pihole0
 api.amazon.co.uk
 api.amazon.co.uk.pihole0
 api-amazondevices.amazon.in
@@ -100,6 +103,7 @@ apiproxy-device-prod-nlb-1-54e80724f8c6ba2d.elb.us-west-2.amazonaws.com
 apiproxy-device-prod-nlb-2-300c995e1ce8a001.elb.us-east-1.amazonaws.com
 apiproxy-device-prod-nlb-2-9a34ae4608b5939d.elb.us-west-2.amazonaws.com
 apiproxy-device-prod-nlb-3-a653f8a785200e05.elb.us-west-2.amazonaws.com
+apiproxy-device-prod-nlb-3-a6ae1986950e693f.elb.us-east-1.amazonaws.com
 apiproxy-device-prod-nlb-4-1f9e6a56738a49ec.elb.us-east-1.amazonaws.com
 apiproxy-device-prod-nlb-4-97fa936b307500cb.elb.us-west-2.amazonaws.com
 apiproxy-website-nlb-prod-1-5a4080be4d9bee00.elb.us-east-1.amazonaws.com
@@ -109,7 +113,9 @@ apiproxy-website-nlb-prod-2-e98cb8cf33ff3581.elb.us-west-2.amazonaws.com
 ap-northeast-1.signin.aws.amazon.com
 ap-northeast-3.console.aws.amazon.com
 appstore-tv-prod-eu.amazon.com
+appx.transient.amazon.ae
 appx.transient.amazon.in
+appx.transient.amazon.in.pihole0
 ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com
 ap-south-1.ccs.amazonaws.com
 ap-south-1.console.aws.amazon.com
@@ -139,11 +145,13 @@ bitspilani-alb-1421899025.ap-south-1.elb.amazonaws.com
 boxxact-netcoresmartech-com-772936059.ap-south-1.elb.amazonaws.com
 browse-query-editor-na.aka.amazon.com
 browser-plugin.amazon-corp.com
+bx82ip9g4f.execute-api.us-east-1.amazonaws.com
 caeee1dd0eea4dde9429074e7f8e96bb.mediatailor.us-east-1.amazonaws.com
 c.amazon-adsystem.com
 capp-images.s3.ap-south-1.amazonaws.com
 c.aps.amazon-adsystem.com
 catalog-paytmimg-mb.s3.amazonaws.com
+c-d001.c001.cfeu.prod.t300.ter.int.amazonvideo.com
 cde-ta-g7g.amazon.com
 cdn-a.amazon-adsystem.com
 cdn.assets.as2.amazonaws.com
@@ -177,10 +185,13 @@ crm-platform.s3.ap-southeast-1.amazonaws.com
 crt.r2m01.amazontrust.com
 custpostimages.s3.ap-south-1.amazonaws.com
 cz15y20kg2.execute-api.us-east-1.amazonaws.com
+d001.eu.prod.t300.ter.int.amazonvideo.com
+d2c.aws.amazon.com
 data.amazon.ae
 data.amazon.com
 data.amazon.in
 data-eu.amazon.com
+dataplane.rum.us-east-1.amazonaws.com
 dcape-na.amazon.com
 dcapsproxy-na.amazon.com
 dcs-edge-ind1-1562177235.ap-south-1.elb.amazonaws.com
@@ -190,6 +201,7 @@ device-messaging-na.amazon.com
 devicemessaging.us-east-1.amazon.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
+device-metrics-us.amazon.com.pihole0
 dev-to-uploads.s3.amazonaws.com
 dns-external-master.amazon.com
 docs.aws.amazon.com
@@ -198,6 +210,7 @@ dp-gw-na.amazon.com
 dp-rsm-prod.amazon.com
 drive.amazonaws.com
 dtnext--prod-s3-ap--south--1-amazonaws-com.cdn.ampproject.org
+dualstack.apiproxy-http1-199106617.us-east-1.elb.amazonaws.com
 dualstack.apiproxy-http1-873404929.us-west-2.elb.amazonaws.com
 dualstack.awseb-awseb-w5w9cuw9lggg-333117843.us-east-1.elb.amazonaws.com
 dualstack.ichnaea-web-2-755189838.us-west-2.elb.amazonaws.com
@@ -215,10 +228,12 @@ edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
 edger-edger-ra7qmuyuwxzs-482101627.us-west-2.elb.amazonaws.com
 embracebot.s3.ap-south-1.amazonaws.com
 epi-mapping-tools-na-iad.iad.proxy.amazon.com
+eu1-dashboard-beepluginuploads3bucket-174u3y07szypz.s3.amazonaws.com
 eu.prism.digital.amazon.dev
 event.mshopbugsnag.irm.amazon.dev
 fc-aps1-00-pics-bkt-00.s3.ap-south-1.amazonaws.com
 fc-use1-00-pics-bkt-00.s3.amazonaws.com
+firehose.us-east-1.amazonaws.com
 firehose.us-west-2.amazonaws.com
 firs-ta-g7g.amazon.com
 fls-eu.amazon.ae
@@ -267,6 +282,7 @@ images-amazon.com
 images-eu.ssl-images-amazon.com
 images-fe.ssl-images-amazon.com
 images-na.ssl-images-amazon.com
+images-na.ssl-images-amazon.com.pihole0
 imagine-watch.s3.ap-south-1.amazonaws.com
 in.amazonforum.com
 inside.amazon.com
@@ -339,6 +355,7 @@ mquuqdjyi6.execute-api.us-east-1.amazonaws.com
 msh.amazon.com
 msh.amazon.co.uk
 msh.amazon.co.uk.pihole0
+msh.amazon.fr
 msh.amazon.in
 music.amazon.com
 music.amazon.in
@@ -414,6 +431,7 @@ prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
 prod.us-east-1.mystique.digital-books.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev.pihole0
+pt25iuvmbc.execute-api.us-east-1.amazonaws.com
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
 p-y3-www-amazon-in-kalias.amazon.in
 pyck-res-bucket.s3-ap-southeast-1.amazonaws.com
@@ -450,6 +468,7 @@ sadobe.sell.amazon.in
 s.amazon-adsystem.com
 sars.amazon.com
 sars-eu.amazon.com
+sars-eu.amazon.com.pihole0
 scrumorg-website-prod.s3.amazonaws.com
 sea-orca.amazon.com
 search-dxccom-l5orjvcxoibu4hsudcrqyuyphy.us-east-1.es.amazonaws.com
@@ -484,6 +503,7 @@ sts.eu-south-1.amazonaws.com
 sts.eu-south-2.amazonaws.com
 sts.me-central-1.amazonaws.com
 sts.me-south-1.amazonaws.com
+sts.us-east-1.amazonaws.com
 summerevent2023.s3.us-west-2.amazonaws.com
 support.console.aws.amazon.com
 support.us-east-1.amazonaws.com
@@ -509,6 +529,7 @@ tp.7c52cf103-frontier.amazon.in
 tp.c95e7e602-frontier.amazon.in
 track.amazon.in
 transient.amazon.com
+transient.amazon.com.pihole0
 transient-eu.amazon.com
 trendlyne-media-mumbai-new.s3.amazonaws.com
 u03lw25r9l.execute-api.us-east-1.amazonaws.com
@@ -549,6 +570,7 @@ www.amazon.com
 www.amazon.co.uk
 www.amazon.de
 www.amazon.in
+www.amazon.in.pihole0
 xqgoa1uunl.execute-api.us-west-2.amazonaws.com
 zee5imagerefresh.s3.ap-south-1.amazonaws.com
 z-na.amazon-adsystem.com
