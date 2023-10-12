@@ -482,6 +482,7 @@ siege-amazon.com
 signin.aws.amazon.com
 smatbot.s3.amazonaws.com
 sns.us-east-1.amazonaws.com
+socket-ap2-ingress-1106418541.ap-south-1.elb.amazonaws.com
 softwareupdates.amazon.com
 solucia.s3.us-east-2.amazonaws.com
 spectrum.s3.amazonaws.com
@@ -560,6 +561,7 @@ watch.amazon.co.jp
 watch.amazon.com
 watch.amazon.co.uk
 watch.amazon.de
+websdk-assets.s3.ap-south-1.amazonaws.com
 wl.amazon-dss.com
 wms-na.amazon-adsystem.com
 wpad.amazon.com
