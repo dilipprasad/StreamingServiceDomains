@@ -156,6 +156,7 @@ cde-ta-g7g.amazon.com
 cdn-a.amazon-adsystem.com
 cdn.assets.as2.amazonaws.com
 cdws.us-east-1.amazonaws.com
+cellstrat2.s3.amazonaws.com
 ce.us-east-1.amazonaws.com
 chaloapp-images.s3.ap-south-1.amazonaws.com
 checkip.amazonaws.com
@@ -167,6 +168,7 @@ cmmp-aps1a-03.ant.amazon.com
 cmtlabs-central.corp.amazon.com
 cognito-identity.ap-northeast-1.amazonaws.com
 cognito-identity.ap-southeast-1.amazonaws.com
+cognito-identity.eu-west-1.amazonaws.com
 cognito-identity.us-east-1.amazonaws.com
 cognito-identity.us-west-2.amazonaws.com
 completion.amazon.ae
@@ -191,6 +193,7 @@ data.amazon.ae
 data.amazon.com
 data.amazon.in
 data-eu.amazon.com
+dataplane.rum.eu-west-1.amazonaws.com
 dataplane.rum.us-east-1.amazonaws.com
 dcape-na.amazon.com
 dcapsproxy-na.amazon.com
@@ -292,6 +295,7 @@ ipv6.unagi-na.amazon.com
 ir-na.amazon-adsystem.com
 j4fbanners.s3.eu-west-2.amazonaws.com
 jp-remote-assets.s3.ap-south-1.amazonaws.com
+k8s-bmshttptlsapps-6f74528ee7-1600554198.ap-south-1.elb.amazonaws.com
 kaizen-static.s3.ap-south-1.amazonaws.com
 kca.amazon.com
 _kerberos._tcp.dc._msdcs.ant.amazon.com
@@ -461,6 +465,7 @@ s3-r-w.ap-south-1.amazonaws.com
 s3-r-w.ap-southeast-1.amazonaws.com
 s3-static-content-marketing-us-east-1-prod.s3.amazonaws.com
 s3.us-east-1.amazonaws.com
+s3.us-east-2.amazonaws.com
 s3-us-west-1.amazonaws.com
 s3-us-west-2.amazonaws.com
 s3-w.us-east-1.amazonaws.com
@@ -478,6 +483,7 @@ sellercentral.amazon.in
 servicecatalog-appregistry.ap-south-1.amazonaws.com
 servicecatalog-appregistry.us-east-1.amazonaws.com
 session.mshopbugsnag.irm.amazon.dev
+shared-lb-shopify-app-465353279.us-east-1.elb.amazonaws.com
 siege-amazon.com
 signin.aws.amazon.com
 smatbot.s3.amazonaws.com
@@ -502,6 +508,7 @@ sts.ap-southeast-4.amazonaws.com
 sts.eu-central-2.amazonaws.com
 sts.eu-south-1.amazonaws.com
 sts.eu-south-2.amazonaws.com
+sts.eu-west-1.amazonaws.com
 sts.me-central-1.amazonaws.com
 sts.me-south-1.amazonaws.com
 sts.us-east-1.amazonaws.com
