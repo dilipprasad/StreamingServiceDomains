@@ -193,6 +193,7 @@ custpostimages.s3.ap-south-1.amazonaws.com
 cz15y20kg2.execute-api.us-east-1.amazonaws.com
 d001.eu.prod.t300.ter.int.amazonvideo.com
 d2c.aws.amazon.com
+d46e7e4e9037431c96dfa309a9ef29b4.mediatailor.us-east-1.amazonaws.com
 data.amazon.ae
 data.amazon.com
 data.amazon.in
@@ -233,11 +234,15 @@ ecx.images-amazon.com
 edger-edger-1bnzgiwi71hrk-784259727.us-east-2.elb.amazonaws.com
 edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
 edger-edger-ra7qmuyuwxzs-482101627.us-west-2.elb.amazonaws.com
+ee-uploaded-files.s3.ap-south-1.amazonaws.com
 embracebot.s3.ap-south-1.amazonaws.com
+emqttconsumer-prod-classic-lb-2002753779.ap-south-1.elb.amazonaws.com
 epi-mapping-tools-na-iad.iad.proxy.amazon.com
 eu1-dashboard-beepluginuploads3bucket-174u3y07szypz.s3.amazonaws.com
 eu.prism.digital.amazon.dev
 event.mshopbugsnag.irm.amazon.dev
+exceed-facebook-production-v2-main.s3.amazonaws.com
+f13800bd44444e2db526f360aced46f2.mediatailor.us-east-1.amazonaws.com
 fc-aps1-00-pics-bkt-00.s3.ap-south-1.amazonaws.com
 fc-use1-00-pics-bkt-00.s3.amazonaws.com
 firehose.us-east-1.amazonaws.com
@@ -324,6 +329,7 @@ _ldap._tcp.pdx-vpn._sites.dc._msdcs.amazon.com
 _ldap._tcp.pdx-vpn._sites.dc._msdcs.ant.amazon.com
 learnbay-wb.s3.ap-south-1.amazonaws.com
 leftynew.s3.amazonaws.com
+links-truecertificates.s3.ap-south-1.amazonaws.com
 logs.ap-south-1.amazonaws.com
 lumin-resources-production.s3.amazonaws.com
 maa-5cg2204062.ant.amazon.com
@@ -413,6 +419,7 @@ pc-quiz.s3.us-east-2.amazonaws.com
 pdx-j-orca.amazon.com
 pdx-orca.amazon.com
 phd.aws.amazon.com
+phtbth-upload.s3.amazonaws.com
 pinpoint.ap-northeast-1.amazonaws.com
 pinpoint.us-east-1.amazonaws.com
 pirple.s3.amazonaws.com
@@ -532,6 +539,7 @@ tanium-prod.corp.amazon.com
 target.aws.amazon.com
 teamblindstatics.s3.ap-northeast-1.amazonaws.com
 testcub1.s3.amazonaws.com
+thepracticaldev.s3.amazonaws.com
 thingbits-in.s3.ap-south-1.amazonaws.com
 thinkific-import.s3.amazonaws.com
 threeplr-ab5w7agdemte.api.amazonvideo.com

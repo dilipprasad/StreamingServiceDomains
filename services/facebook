@@ -5,6 +5,7 @@ chat-e2ee-ig-p42.c10r.facebook.com
 connect.facebook.net
 dgw.c10r.facebook.com
 edge-mqtt.facebook.com
+exceed-facebook-production-v2-main.s3.amazonaws.com
 fb.com
 fb.me
 gateway.facebook.com
@@ -14,6 +15,7 @@ graph-fallback.facebook.com
 instagram.c10r.facebook.com
 lithium.facebook.com
 lookaside.facebook.com
+metaspark.facebookblueprint.com
 m.facebook.com
 mqtt-mini.facebook.com
 mqtt-mini.facebook.com.pihole0

@@ -28,6 +28,7 @@ ios.prod.http1.netflix.com
 m.netflix.com
 mobile-ixanycast.ftl.netflix.com
 mobile.prod.dradis.netflix.com
+*.netflix.com
 netflix.com
 netflix.net
 nflx-android-tv.prod.partner.netflix.net
@@ -69,4 +70,3 @@ www.dradis.netflix.com
 www.netflix.com
 www.netflix.com.pihole0
 xiaomi-tv-1.prod.partner.netflix.net
-*.netflix.com
