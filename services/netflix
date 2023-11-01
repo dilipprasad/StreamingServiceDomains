@@ -25,6 +25,7 @@ ios.prod.dradis.netflix.com
 ios.prod.ftl.netflix.com
 ios.prod.ftl.netflix.com.pihole0
 ios.prod.http1.netflix.com
+logs.netflix.com
 m.netflix.com
 mobile-ixanycast.ftl.netflix.com
 mobile.prod.dradis.netflix.com

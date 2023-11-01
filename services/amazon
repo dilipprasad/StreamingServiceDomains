@@ -4,6 +4,7 @@
 3d19a434904341e69a2dbbcd110f36a2.mediatailor.us-east-1.amazonaws.com
 637755185a76487cbf49b6710588e4fe.mediatailor.us-east-1.amazonaws.com
 774f913e-production-weconv-abee-330827228.us-east-1.elb.amazonaws.com
+7m5y5tkfr5.execute-api.us-east-1.amazonaws.com
 85ukawlpcf.execute-api.us-west-2.amazonaws.com
 8fougdi4d7.execute-api.us-east-1.amazonaws.com
 8nuw5452x5.execute-api.us-east-2.amazonaws.com
@@ -143,6 +144,7 @@ avs-alexa-18-eu.amazon.com
 aws.amazon.com
 awsmedia.s3.amazonaws.com
 aws-trusted-advisor-prod.us-east-1.amazonaws.com
+bc-img.s3.ap-south-1.amazonaws.com
 beehiiv-images-production.s3.amazonaws.com
 bitspilani-alb-1421899025.ap-south-1.elb.amazonaws.com
 boxxact-netcoresmartech-com-772936059.ap-south-1.elb.amazonaws.com
@@ -257,6 +259,7 @@ f.media-amazon.com
 forumwaproduct.s3.ap-south-1.amazonaws.com
 ftvr-eu.amazon.com
 gallery-rfc.s3.ap-south-1.amazonaws.com
+gandalf-prod.auth.us-west-2.amazoncognito.com
 github-cloud.s3.amazonaws.com
 github-production-user-asset-6210df.s3.amazonaws.com
 global.ccs.amazonaws.com
@@ -402,6 +405,7 @@ ocsp.rootca3.amazontrust.com
 ocsp.rootg2.amazontrust.com
 odesk-prod-portraits.s3.amazonaws.com
 ohlocal-media.s3.amazonaws.com
+oidc.us-east-1.amazonaws.com
 ola-docyard-central.s3.amazonaws.com
 ola-docyard-consumer-api.s3.ap-southeast-1.amazonaws.com
 opencollective-production.s3-us-west-1.amazonaws.com
@@ -427,6 +431,8 @@ pki.amazon.com
 playtht-website-assets.s3.amazonaws.com
 pluralsight-assets.s3.amazonaws.com
 pluralsight-assets.s3.us-east-1.amazonaws.com
+portal.aws.amazon.com
+portal.sso.us-east-1.amazonaws.com
 porter-customer-app-promo-images-prod.s3.amazonaws.com
 porter-vehicles.s3-ap-southeast-1.amazonaws.com
 prime.amazon.com
@@ -446,6 +452,7 @@ prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
 prod.us-east-1.mystique.digital-books.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev.pihole0
+profile.aws.amazon.com
 pt25iuvmbc.execute-api.us-east-1.amazonaws.com
 pubingress-feedback-974d66e8c1341bf9.elb.ap-southeast-1.amazonaws.com
 p-y3-www-amazon-in-kalias.amazon.in
@@ -582,6 +589,7 @@ watch.amazon.com
 watch.amazon.co.uk
 watch.amazon.de
 websdk-assets.s3.ap-south-1.amazonaws.com
+website.sso-portal.us-east-1.amazonaws.com
 wl.amazon-dss.com
 wms-na.amazon-adsystem.com
 wpad.amazon.com
