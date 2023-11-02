@@ -444,6 +444,7 @@ prod-1.us-east-1.mdcs.mshop.amazon.dev
 prod.amazoncrl.com
 prod-apig-kong-public-alb-1988483029.ap-south-1.elb.amazonaws.com
 prod.clientvpn.amazon-corp.com
+prod.eu-west-1.api.ccmp-citadel.music.amazon.dev
 prod.eu-west-1.library-relay.kindle.amazon.dev
 prod.eu-west-1.mdcs.mshop.amazon.dev
 prod-mkcmsapi.s3.ap-south-1.amazonaws.com
