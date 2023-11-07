@@ -52,6 +52,7 @@ ago-item-storage.s3.amazonaws.com
 ait-help.playcannonball.net.s3.amazonaws.com
 alb-ext-ingress-group-95161440.us-east-1.elb.amazonaws.com
 alb-fc-babygear-buyguide-app-1493012510.ap-south-1.elb.amazonaws.com
+alb-live-as-cart-1979157673.ap-south-1.elb.amazonaws.com
 alb-live-as-checkout-304368935.ap-south-1.elb.amazonaws.com
 alb-live-parenting-api-522744537.ap-south-1.elb.amazonaws.com
 alexa-smart-nudge.amazon.in
@@ -136,12 +137,14 @@ atv-a2rz0s4oegatyb-skywortdigital-hy00a-xstreamtbox002-airtkeys.api.amazonvideo.
 atv-ax25fykix4d0b-xiaomi-dangal-mitvaxso0-xiaomidangreleasekeys.api.amazonvideo.com
 atv-ext-eu.amazon.com
 atv-ps.amazon.com
+auth.cloudshell.us-east-1.aws.amazon.com
 _autodiscover._tcp.amazon.com
 aviary.amazon.de
 avpk-a2rz0s4oegatyb-0.api.amazonvideo.com
 avpk-a2rz0s4oegatyb-0.eu.api.amazonvideo.com
 avs-alexa-18-eu.amazon.com
 aws.amazon.com
+awscli.amazonaws.com
 awsmedia.s3.amazonaws.com
 aws-trusted-advisor-prod.us-east-1.amazonaws.com
 bc-img.s3.ap-south-1.amazonaws.com
@@ -169,6 +172,8 @@ checkip.amazonaws.com
 cl-cdn-images.s3.ap-south-1.amazonaws.com
 client.rum.us-east-1.amazonaws.com
 cloudfront-labs.amazonaws.com
+cloudshell.us-east-1.amazonaws.com
+cloudshell.widget.console.aws.amazon.com
 c.media-amazon.com
 cmmp-aps1a-03.ant.amazon.com
 cmtlabs-central.corp.amazon.com
@@ -182,6 +187,7 @@ completion.amazon.com
 completion.amazon.co.uk
 completion.amazon.in
 compute-optimizer.us-east-1.amazonaws.com
+config.aps.amazon-adsystem.com
 console.aws.amazon.com
 contributionmargin.s3.amazonaws.com
 cosmofeed-other-assets.s3.us-east-2.amazonaws.com
@@ -269,6 +275,7 @@ gobikes-stage-public.s3.ap-south-1.amazonaws.com
 godel-amazon-assets.s3.amazonaws.com
 healthifyme-public.s3-ap-southeast-1.amazonaws.com
 health.us-east-1.amazonaws.com
+health.us-east-2.amazonaws.com
 hiya-dist.s3.us-west-2.amazonaws.com
 hjszhb9uk3.execute-api.eu-west-1.amazonaws.com
 hme-app-assets.s3.ap-south-1.amazonaws.com
@@ -448,6 +455,7 @@ prod.eu-west-1.api.ccmp-citadel.music.amazon.dev
 prod.eu-west-1.library-relay.kindle.amazon.dev
 prod.eu-west-1.mdcs.mshop.amazon.dev
 prod-mkcmsapi.s3.ap-south-1.amazonaws.com
+prodstage-services-audiohashnodeaudioblog02f14287-1k4ui7vrgv13u.s3-us-west-2.amazonaws.com
 prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
 prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
 prod.us-east-1.mystique.digital-books.amazon.dev
@@ -467,6 +475,8 @@ quip-amazon.com
 ram.ap-south-1.amazonaws.com
 ram.us-east-1.amazonaws.com
 read.amazon.in
+reamaze-prod.s3.amazonaws.com
+reddit-econ-prod-assets-permanent.s3.amazonaws.com
 remoteconfig-eu.amazon.com
 resolver-msg-xiaomi-net-665721575.ap-south-1.elb.amazonaws.com
 revvselfdrivecar.s3-us-west-2.amazonaws.com
@@ -516,6 +526,7 @@ spns-kong-alb-1531584902.ap-southeast-1.elb.amazonaws.com
 sqs.us-west-2.amazonaws.com
 sq-tungsten-ts.amazon-adsystem.com
 ssl-images-amazon.com
+ssmmessages.us-east-1.amazonaws.com
 static-42andpark-com.s3-us-west-2.amazonaws.com
 static.siege-amazon.com
 staticxx.s3.amazonaws.com
