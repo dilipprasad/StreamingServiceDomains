@@ -182,6 +182,7 @@ cognito-identity.ap-southeast-1.amazonaws.com
 cognito-identity.eu-west-1.amazonaws.com
 cognito-identity.us-east-1.amazonaws.com
 cognito-identity.us-west-2.amazonaws.com
+coindcx.s3.amazonaws.com
 completion.amazon.ae
 completion.amazon.com
 completion.amazon.co.uk
@@ -211,6 +212,7 @@ dataplane.rum.us-east-1.amazonaws.com
 dcape-na.amazon.com
 dcapsproxy-na.amazon.com
 dcs-edge-ind1-1562177235.ap-south-1.elb.amazonaws.com
+dcx-staging-images.s3.amazonaws.com
 dedge-main-sg-lb-443-a5b9044fa336b0b9.elb.ap-southeast-1.amazonaws.com
 det-ta-g7g.amazon.com
 device-messaging-na.amazon.com
