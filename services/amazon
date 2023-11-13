@@ -48,6 +48,7 @@ acm-pca.us-east-2.amazonaws.com
 addresssuggest-eu.amazon.com
 addshoppers.s3.amazonaws.com
 ads-setu-proxy-eu.amazon.com
+ae074871cdae545139179cfdfc5e4271-c02cb55f12c19fa5.elb.eu-central-1.amazonaws.com
 ago-item-storage.s3.amazonaws.com
 ait-help.playcannonball.net.s3.amazonaws.com
 alb-ext-ingress-group-95161440.us-east-1.elb.amazonaws.com
@@ -116,6 +117,7 @@ apiproxy-website-nlb-prod-2-22bf9dee8ebc92ff.elb.us-east-1.amazonaws.com
 apiproxy-website-nlb-prod-2-e98cb8cf33ff3581.elb.us-west-2.amazonaws.com
 ap-northeast-1.signin.aws.amazon.com
 ap-northeast-3.console.aws.amazon.com
+approvalsapiproduction-1732865079.ap-south-1.elb.amazonaws.com
 appstore-tv-prod-eu.amazon.com
 appx.transient.amazon.ae
 appx.transient.amazon.in
@@ -527,11 +529,13 @@ solucia.s3.us-east-2.amazonaws.com
 spectrum.s3.amazonaws.com
 splash-screen-animations-customer-app.s3.ap-southeast-1.amazonaws.com
 spns-kong-alb-1531584902.ap-southeast-1.elb.amazonaws.com
+sqs.us-east-1.amazonaws.com
 sqs.us-west-2.amazonaws.com
 sq-tungsten-ts.amazon-adsystem.com
 ssl-images-amazon.com
 ssmmessages.us-east-1.amazonaws.com
 static-42andpark-com.s3-us-west-2.amazonaws.com
+static.secure-fields.payments.amazon.dev
 static.siege-amazon.com
 staticxx.s3.amazonaws.com
 sts.af-south-1.amazonaws.com
@@ -588,12 +592,14 @@ unagi-eu.amazon.com
 unagi-eu.amazon.com.pihole0
 unagi-na.amazon.com
 unifiedsearch.amazonaws.com
+upwork-usw2-prod-agora-file-storage.s3.us-west-2.amazonaws.com
 upwork-usw2-prod-assets-static.s3.us-west-2.amazonaws.com
 us-east-1.ccs.amazonaws.com
 us-east-1.console.aws.amazon.com
 us-east-1.signin.aws.amazon.com
 us-west-1.console.aws.amazon.com
 us-west-2.console.aws.amazon.com
+ux6g55bd4a.execute-api.ap-south-1.amazonaws.com
 venezia-measurements.s3-external-1.amazonaws.com
 vmediadatav2.s3.ap-south-1.amazonaws.com
 vs.aws.amazon.com
@@ -616,6 +622,7 @@ www.amazon.com
 www.amazon.co.uk
 www.amazon.de
 www.amazon.in
+www-amazon-in.customer.fastly.net
 www.amazon.in.pihole0
 xqgoa1uunl.execute-api.us-west-2.amazonaws.com
 zee5imagerefresh.s3.ap-south-1.amazonaws.com
