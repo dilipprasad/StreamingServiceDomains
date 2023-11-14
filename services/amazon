@@ -197,6 +197,7 @@ cosmofeed-other-assets.s3.us-east-2.amazonaws.com
 coursera_assets.s3.amazonaws.com
 coursera-profile-photos.s3.amazonaws.com
 coursera-university-assets.s3.amazonaws.com
+crl.r2m01.amazontrust.com
 crl.rootca1.amazontrust.com
 crm-platform.s3.ap-southeast-1.amazonaws.com
 crt.r2m01.amazontrust.com
@@ -610,6 +611,7 @@ watch.amazon.co.jp
 watch.amazon.com
 watch.amazon.co.uk
 watch.amazon.de
+waytogo--assets-s3-amazonaws-com.cdn.ampproject.org
 websdk-assets.s3.ap-south-1.amazonaws.com
 website.sso-portal.us-east-1.amazonaws.com
 wl.amazon-dss.com
