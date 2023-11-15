@@ -33,6 +33,7 @@ config.edge.skype.com.pihole0
 config.edge.skype.com.trafficmanager.net
 config.edge.skype.net
 consumer.entitlement.skype.com
+dogfood.cc.skype.com
 edge.skype.com
 edge-skype-com.s-0001.s-msedge.net
 engagementapi.skype.com
@@ -50,6 +51,7 @@ people.skype.com
 pnv.skype.com
 prod.registrar.skype.com
 pub-csm-jpea-02-t.trouter.skype.com
+r2-api.flightproxy.skype.com
 root.skype-edf.akadns.net
 sea.notifications.skype.com
 secure.skypeassets.com

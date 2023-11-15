@@ -92,6 +92,8 @@ ant.amazon.com
 antv-29-skyworthdigital-xstreamsmartbox002-505004009.api.amazonvideo.com
 antv-29-skyworthdigital-xstreamsmartbox002-505004009.eu.api.amazonvideo.com
 anyjcaraak.execute-api.us-east-1.amazonaws.com
+aore-locus-ha-r-nlb-41ea9b1b0ca13c6c.elb.us-west-2.amazonaws.com
+aore-main-ha-r-nlb-92a8669305c17948.elb.us-west-2.amazonaws.com
 api.amazonalexa.com
 api.amazon.com
 api.amazon.com.pihole0
@@ -321,6 +323,7 @@ ir-na.amazon-adsystem.com
 j4fbanners.s3.eu-west-2.amazonaws.com
 jp-remote-assets.s3.ap-south-1.amazonaws.com
 k8s-bmshttptlsapps-6f74528ee7-1600554198.ap-south-1.elb.amazonaws.com
+k8s-meshwxtg-wxtgener-9fc93235c5-6756e4bc4ad33ccb.elb.us-west-2.amazonaws.com
 kaizen-static.s3.ap-south-1.amazonaws.com
 kca.amazon.com
 _kerberos._tcp.dc._msdcs.ant.amazon.com
@@ -463,6 +466,7 @@ prod.eu-west-1.mdcs.mshop.amazon.dev
 prod-mkcmsapi.s3.ap-south-1.amazonaws.com
 prodstage-services-audiohashnodeaudioblog02f14287-1k4ui7vrgv13u.s3-us-west-2.amazonaws.com
 prod-telemetry-10-archive.s3.eu-central-1.amazonaws.com
+production-nautilus-1585718034.us-west-2.elb.amazonaws.com
 prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
 prod.us-east-1.mystique.digital-books.amazon.dev
 prod.us-east-1.sonar.prime-video.amazon.dev
@@ -499,6 +503,7 @@ s3-eu-west-1.amazonaws.com
 s3.eu-west-3.amazonaws.com
 s3-r-w.ap-south-1.amazonaws.com
 s3-r-w.ap-southeast-1.amazonaws.com
+s3-r-w.dualstack.us-west-2.amazonaws.com
 s3-static-content-marketing-us-east-1-prod.s3.amazonaws.com
 s3.us-east-1.amazonaws.com
 s3.us-east-2.amazonaws.com
@@ -598,6 +603,8 @@ upwork-usw2-prod-assets-static.s3.us-west-2.amazonaws.com
 us-east-1.ccs.amazonaws.com
 us-east-1.console.aws.amazon.com
 us-east-1.signin.aws.amazon.com
+us-ore-00001.s3.dualstack.us-west-2.amazonaws.com
+us-std-00003.s3.dualstack.us-east-1.amazonaws.com
 us-west-1.console.aws.amazon.com
 us-west-2.console.aws.amazon.com
 ux6g55bd4a.execute-api.ap-south-1.amazonaws.com
