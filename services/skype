@@ -50,6 +50,9 @@ options.skype.com
 people.skype.com
 pnv.skype.com
 prod.registrar.skype.com
+pub-csm-auea-00-t.trouter.skype.com
+pub-csm-auea-01-t.trouter.skype.com
+pub-csm-jpea-01-t.trouter.skype.com
 pub-csm-jpea-02-t.trouter.skype.com
 r2-api.flightproxy.skype.com
 root.skype-edf.akadns.net
