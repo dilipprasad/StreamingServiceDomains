@@ -32,6 +32,7 @@ ipv4-c008-bom001-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c008-maa001-ix.1.oca.nflxvideo.net
 ipv4-c009-del001-bhartiairtel-isp.1.oca.nflxvideo.net
 ipv4-c010-del001-bhartiairtel-isp.1.oca.nflxvideo.net
+ipv4-c012-del002-ix.ftl.nflxvideo.net
 ipv4-c016-maa001-ix.1.oca.nflxvideo.net
 ipv4-c016-maa001-ix.ftl.nflxvideo.net
 ipv4-c018-maa001-ix.1.oca.nflxvideo.net
@@ -49,6 +50,7 @@ ipv4-c028-maa001-ix.ftl.nflxvideo.net
 ipv4-c029-bom001-ix.1.oca.nflxvideo.net
 ipv4-c029-maa001-ix.ftl.nflxvideo.net
 ipv4-c033-buh001-ix.1.oca.nflxvideo.net
+ipv4-c034-maa001-ix.ftl.nflxvideo.net
 ipv4-c035-sin001-ix.1.oca.nflxvideo.net
 ipv4-c036-sin001-ix.1.oca.nflxvideo.net
 ipv4-c040-sin001-ix.1.oca.nflxvideo.net
@@ -56,10 +58,12 @@ ipv4-c043-hkg001-ix.1.oca.nflxvideo.net
 ipv4-c044-bom001-ix.1.oca.nflxvideo.net
 ipv4-c045-sin001-ix.ftl.nflxvideo.net
 ipv4-c047-atl004-ix.1.oca.nflxvideo.net
+ipv4-c048-bom001-ix.ftl.nflxvideo.net
 ipv4-c050-sin001-ix.1.oca.nflxvideo.net
 ipv4-c051-bom001-ix.ftl.nflxvideo.net
 ipv4-c056-atl004-ix.1.oca.nflxvideo.net
 ipv4-c056-sin001-ix.1.oca.nflxvideo.net
+ipv4-c056-sin001-ix.ftl.nflxvideo.net
 ipv4-c058-sin001-ix.1.oca.nflxvideo.net
 ipv4-c063-sin001-ix.1.oca.nflxvideo.net
 ipv4-c065-sin001-ix.1.oca.nflxvideo.net
@@ -68,6 +72,7 @@ ipv4-c067-sin001-ix.1.oca.nflxvideo.net
 ipv4-c068-sin001-ix.1.oca.nflxvideo.net
 ipv4-c069-sin001-ix.1.oca.nflxvideo.net
 ipv4-c150-fra002-ix.ftl.nflxvideo.net
+ipv4-c182-fra002-ix.ftl.nflxvideo.net
 ipv4-c265-dfw001-ix.1.oca.nflxvideo.net
 ipv4-c331-dfw001-ix.1.oca.nflxvideo.net
 ipv4-c342-dfw001-ix.1.oca.nflxvideo.net
