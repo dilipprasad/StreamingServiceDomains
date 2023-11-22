@@ -2,6 +2,7 @@
 03y0s318gk.execute-api.ap-south-1.amazonaws.com
 3b265effb709412a8b5988c98756fda0.mediatailor.us-east-1.amazonaws.com
 3d19a434904341e69a2dbbcd110f36a2.mediatailor.us-east-1.amazonaws.com
+46q0l84r6j.execute-api.us-east-1.amazonaws.com
 637755185a76487cbf49b6710588e4fe.mediatailor.us-east-1.amazonaws.com
 774f913e-production-weconv-abee-330827228.us-east-1.elb.amazonaws.com
 7m5y5tkfr5.execute-api.us-east-1.amazonaws.com
@@ -15,6 +16,7 @@ a7h4qt7q1f.execute-api.eu-central-1.amazonaws.com
 aa1ce778ea0544e4aa7429bc8a16eb1c.mediatailor.us-east-1.amazonaws.com
 aan.amazon.ae
 aan.amazon.com
+aan.amazon.co.uk
 aan.amazon.in
 aax.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
@@ -29,6 +31,7 @@ aax-us-east.amazon-adsystem.com
 aax-us-east-retail-direct.amazon.com
 aax-us-iad.amazon.com
 aax-us-pdx.amazon-adsystem.com
+ab3d5pygdag9.eu.api.amazonvideo.com
 ab4sp6snqrny.eu.api.amazonvideo.com
 ab77a657a6cg.eu.api.amazonvideo.com
 ab992t7ewg8z.api.amazonvideo.com
@@ -45,6 +48,7 @@ abyqxpgk7c4w.eu.api.amazonvideo.com
 abzq7aq4866p.eu.api.amazonvideo.com
 accosa-ivs.s3.ap-south-1.amazonaws.com
 acm-pca.us-east-2.amazonaws.com
+ad525800116a24324ba3cbf1b01e8d07-5aaac39fcaac384b.elb.ap-south-1.amazonaws.com
 addresssuggest-eu.amazon.com
 addshoppers.s3.amazonaws.com
 ads-setu-proxy-eu.amazon.com
@@ -309,6 +313,8 @@ idmb-app-chat-global-xiaomi10-407281533.ap-south-1.elb.amazonaws.com.pihole0
 idmb-app-chat-global-xiaomi-1108233833.ap-south-1.elb.amazonaws.com
 idp-eu-west-1.federate.amazon.com
 idp.federate.amazon.com
+images31941-production.s3.amazonaws.com
+images31941-production.s3.us-east-1.amazonaws.com
 images-amazon.com
 images-eu.ssl-images-amazon.com
 images-fe.ssl-images-amazon.com
@@ -329,6 +335,7 @@ kaizen-static.s3.ap-south-1.amazonaws.com
 kca.amazon.com
 _kerberos._tcp.dc._msdcs.ant.amazon.com
 _kerberos._tcp.pdx-vpn._sites.dc._msdcs.ant.amazon.com
+kinapp-notifications-eu.amazon.com
 kindle-digital-delivery.amazon.com
 kinesis.ap-south-1.amazonaws.com
 kinesis.ap-southeast-1.amazonaws.com
@@ -488,6 +495,7 @@ ram.us-east-1.amazonaws.com
 read.amazon.in
 reamaze-prod.s3.amazonaws.com
 reddit-econ-prod-assets-permanent.s3.amazonaws.com
+remotebase85ef94c1-85ef94c1-production.auth.us-east-1.amazoncognito.com
 remoteconfig-eu.amazon.com
 resolver-msg-xiaomi-net-665721575.ap-south-1.elb.amazonaws.com
 revvselfdrivecar.s3-us-west-2.amazonaws.com
@@ -589,6 +597,7 @@ transient-eu.amazon.com
 trendlyne-media-mumbai-new.s3.amazonaws.com
 u03lw25r9l.execute-api.us-east-1.amazonaws.com
 ubuykw.s3.amazonaws.com
+udemy-image-web-upload.s3.amazonaws.com
 ueup36s7i9.execute-api.us-west-2.amazonaws.com
 unagi.amazon.ae
 unagi.amazon.com
@@ -635,6 +644,7 @@ www.amazon.de
 www.amazon.in
 www-amazon-in.customer.fastly.net
 www.amazon.in.pihole0
+wynk-music-prod-be-api-1810316612.ap-south-1.elb.amazonaws.com
 xqgoa1uunl.execute-api.us-west-2.amazonaws.com
 zee5imagerefresh.s3.ap-south-1.amazonaws.com
 z-na.amazon-adsystem.com
