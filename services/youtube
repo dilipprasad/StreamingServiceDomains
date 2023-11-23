@@ -23,3 +23,9 @@ yt3.ggpht.com
 ytimg.com
 photos-ugc.l.googleusercontent.com
 redirector.googlevideo.com
+ytimg.l.google.com
+(\.|^)googlevideo\.com$
+,(\.|^)youtube\.com$
+,(\.|^)ytimg\.com$
+,(\.|^)googleusercontent\.com$
+,(\.|^)gstatic\.com$
