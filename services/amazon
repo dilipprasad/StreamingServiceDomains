@@ -51,6 +51,7 @@ acm-pca.us-east-2.amazonaws.com
 ad525800116a24324ba3cbf1b01e8d07-5aaac39fcaac384b.elb.ap-south-1.amazonaws.com
 addresssuggest-eu.amazon.com
 addshoppers.s3.amazonaws.com
+ad-host-backup-europe.s3.eu-central-1.amazonaws.com
 ads-setu-proxy-eu.amazon.com
 ae074871cdae545139179cfdfc5e4271-c02cb55f12c19fa5.elb.eu-central-1.amazonaws.com
 ago-item-storage.s3.amazonaws.com
@@ -137,6 +138,7 @@ ap-southeast-1.ccs.amazonaws.com
 ap-southeast-2.signin.aws.amazon.com
 apx-security.amazon.in
 arcus-uswest.amazon.com
+arcus-uswest.amazon.com.pihole0
 asmw.amazon.in
 associates-amazon.com
 assoc-na.associates-amazon.com
@@ -321,6 +323,7 @@ images-fe.ssl-images-amazon.com
 images-na.ssl-images-amazon.com
 images-na.ssl-images-amazon.com.pihole0
 imagine-watch.s3.ap-south-1.amazonaws.com
+in1-dashboard-beepluginuploads3bucket-1odc1qwqrbhul.s3.amazonaws.com
 in.amazonforum.com
 inside.amazon.com
 internal-cdn.amazon.com
@@ -597,6 +600,7 @@ transient-eu.amazon.com
 trendlyne-media-mumbai-new.s3.amazonaws.com
 u03lw25r9l.execute-api.us-east-1.amazonaws.com
 ubuykw.s3.amazonaws.com
+udemy-certificate.s3.amazonaws.com
 udemy-image-web-upload.s3.amazonaws.com
 ueup36s7i9.execute-api.us-west-2.amazonaws.com
 unagi.amazon.ae
