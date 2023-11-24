@@ -59,6 +59,7 @@ probe-cell9.prod.ftl.netflix.com
 probe-dradis-anycast.prod.ftl.netflix.com
 probe-dradis-aws-only.prod.ftl.netflix.com
 probe-dradis.prod.ftl.netflix.com
+prod.http1.dradis.netflix.com
 push.prod.netflix.com
 push.prod.netflix.com.pihole0
 secure.netflix.com

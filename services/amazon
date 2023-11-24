@@ -521,6 +521,7 @@ s3.us-east-1.amazonaws.com
 s3.us-east-2.amazonaws.com
 s3-us-west-1.amazonaws.com
 s3-us-west-2.amazonaws.com
+s3-us-west-2-w.amazonaws.com
 s3-w.us-east-1.amazonaws.com
 sadobe.sell.amazon.in
 s.amazon-adsystem.com
@@ -537,6 +538,7 @@ servicecatalog-appregistry.ap-south-1.amazonaws.com
 servicecatalog-appregistry.us-east-1.amazonaws.com
 session.mshopbugsnag.irm.amazon.dev
 shared-lb-shopify-app-465353279.us-east-1.elb.amazonaws.com
+shopifyorderlimits.s3.amazonaws.com
 siege-amazon.com
 signin.aws.amazon.com
 smatbot.s3.amazonaws.com
@@ -649,6 +651,7 @@ www.amazon.in
 www-amazon-in.customer.fastly.net
 www.amazon.in.pihole0
 wynk-music-prod-be-api-1810316612.ap-south-1.elb.amazonaws.com
+wynk-music-prod-playback-1662366808.ap-south-1.elb.amazonaws.com
 xqgoa1uunl.execute-api.us-west-2.amazonaws.com
 zee5imagerefresh.s3.ap-south-1.amazonaws.com
 z-na.amazon-adsystem.com
