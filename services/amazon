@@ -319,6 +319,7 @@ images31941-production.s3.amazonaws.com
 images31941-production.s3.us-east-1.amazonaws.com
 images-amazon.com
 images-eu.ssl-images-amazon.com
+images-eu.ssl-images-amazon.com.pihole0
 images-fe.ssl-images-amazon.com
 images-na.ssl-images-amazon.com
 images-na.ssl-images-amazon.com.pihole0
@@ -364,6 +365,7 @@ logs.ap-south-1.amazonaws.com
 lumin-resources-production.s3.amazonaws.com
 maa-5cg2204062.ant.amazon.com
 mads.amazon-adsystem.com
+mads.amazon-adsystem.com.pihole0
 mads.amazon.com
 mads-eu.amazon.com
 mag-eu.amazon.com
@@ -431,6 +433,7 @@ ocsp.rootca1.amazontrust.com
 ocsp.rootca3.amazontrust.com
 ocsp.rootg2.amazontrust.com
 odesk-prod-portraits.s3.amazonaws.com
+ogml0l46th.execute-api.ap-south-1.amazonaws.com
 ohlocal-media.s3.amazonaws.com
 oidc.us-east-1.amazonaws.com
 ola-docyard-central.s3.amazonaws.com
@@ -510,6 +513,7 @@ s3.ap-south-1.amazonaws.com
 s3-ap-southeast-1.amazonaws.com
 s3.ap-southeast-1.amazonaws.com
 s3-ap-southeast-1-w.amazonaws.com
+s3.dualstack.ap-southeast-1.amazonaws.com
 s3.eu-central-1.amazonaws.com
 s3-eu-west-1.amazonaws.com
 s3.eu-west-3.amazonaws.com
@@ -593,6 +597,7 @@ threeplr-ab5w7agdemte.api.amazonvideo.com
 threeplr-ab8swqfd2t98.api.amazonvideo.com
 threeplr-abdx8mxr6q3e.api.amazonvideo.com
 todo-ta-g7g.amazon.com
+todo-ta-g7g.amazon.com.pihole0
 tp.7c52cf103-frontier.amazon.in
 tp.c95e7e602-frontier.amazon.in
 track.amazon.in

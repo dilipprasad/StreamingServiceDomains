@@ -14,7 +14,9 @@ appboot.us-west-2.origin.prodaa.netflix.com
 customerevents.netflix.com
 eu-west-1-probe.prod.ftl.netflix.com
 fast.dradis.netflix.com
+google-assistant.prod.partner.netflix.net
 ichnaea.netflix.com
+ichnaea-web.dradis.netflix.com
 ichnaea-web.netflix.com
 ios-anycast.prod.ftl.netflix.com
 ios-anycast.prod.ftl.netflix.com.pihole0
