@@ -182,6 +182,7 @@ chaloapp-images.s3.ap-south-1.amazonaws.com
 checkip.amazonaws.com
 cl-cdn-images.s3.ap-south-1.amazonaws.com
 client.rum.us-east-1.amazonaws.com
+clientsapigw.prod.gws.ring.amazon.dev
 cloudfront-labs.amazonaws.com
 cloudshell.us-east-1.amazonaws.com
 cloudshell.widget.console.aws.amazon.com
@@ -390,6 +391,7 @@ midway-gateway-2-4.eu-west-1.aea.amazon.com
 midway-gateway-2-eu-west-1.aea.amazon.com
 midway-gateway-3-eu-west-1.aea.amazon.com
 midway-gateway-4-eu-west-1.aea.amazon.com
+minerva.ios-config.photos.amazon.dev
 m.media-amazon.com
 m-media--amazon-com.cdn.ampproject.org
 m.media-amazon.com.pihole0
