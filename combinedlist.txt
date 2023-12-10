@@ -1,4 +1,4 @@
-
+9cache.com
 9gag.com
 aan.amazon.com
 aan.amazon.in
@@ -68,30 +68,16 @@ blizzard.com
 brighteon.social
 b-www.facebook.com
 c.amazon-adsystem.com
-cat ./* > ../combinedlist.txt
-cat * >> ../combined.txt
-cd /home/echo "$USER"/addtlPiholeAdlist
-cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains
-cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/
 cdninstagram.com
-cd StreamingServiceDomains/
 chat-e2ee-mini.facebook.com
 c.im
-#Clone the repo
 cloudfront-labs.amazonaws.com
 c.media-amazon.com
 cognito-identity.ap-northeast-1.amazonaws.com
-Command to combine all files to 1 file
-#Commit and push git changes
 completion.amazon.com
 connect.facebook.net
 console.aws.amazon.com
-#Contact and get a single list
-copies of the Software, and to permit persons to whom the Software is
-copies or substantial portions of the Software.
-Copyright (c) 2022 NextDNS
 counter.social
-#Create Directory if missing
 cz15y20kg2.execute-api.us-east-1.amazonaws.com
 dailymotion.com
 data.amazon.com
@@ -104,7 +90,6 @@ det-ta-g7g.amazon.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 dgw.c10r.facebook.com
-directory="/home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/"
 discordapp.com
 discordapp.net
 discord.com
@@ -115,8 +100,6 @@ disneyplus.disney.co.jp
 disney-plus.net
 dmcdn.net
 dm-event.net
-do
-done
 douyin.com # https://github.com/nextdns/services/issues/2
 dp-gw-na.amazon.com
 dssott.com
@@ -151,25 +134,6 @@ ebaystatic.com
 ebay-us.com
 ec2-52-23-111-175.compute-1.amazonaws.com
 ec2.us-east-1.amazonaws.com
-echo "Clone the repo"
-echo "Commit and push git changes"
-echo "Creating Directory if missing"
-echo "Current Dir: $PWD"
-        echo "Current file name: $filename"
-echo "Directory to process: $directory"
-# echo "Get the domains from the pihole database"
-echo "Get the domains from the pihole database"
-        echo "Get the domains from the pihole database for : $filename"
-echo "Navigate to the directory /StreamingServiceDomains"
-echo "Navigate to the directory /StreamingServiceDomains/services"
-echo "Navigate to the parent directory /StreamingServiceDomains"
-echo "Navigating to Directory /home/echo "$USER"/addtlPiholeAdlist"
-echo "Pull if repo already exists"
-echo "Pushed latest domain list successfully"9cache.com
-# echo "Sort the file and get only unique entries"
-echo "Sort the file and get only unique entries"
-        echo "Sort the file and get only unique entries  for : $filename"
-        # Echo the file name
 edge-chat.facebook.com
 edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com
 edge-skype-com.s-0001.s-msedge.net
@@ -180,27 +144,15 @@ fb.me
 fedibird.com
 feelinsonice.appspot.com
 feelinsonice-hrd.appspot.com
-    fi
-        filename=$(basename "$file")
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 fls-eu.amazon.com
 fls-eu.amazon.in
 fls-na.amazon.com
 f.media-amazon.com
-for file in "$directory"/*
 fosstodon.org
 gateway.facebook.com
 gc2.jp
-git add .
-git clone https://github.com/dilipprasad/StreamingServiceDomains.git
-git commit -m "Update Domains"
-git config --global user.email "dilipprasad87@gmail.com"
-git config --global user.name "Automated Script"
 github-cloud.s3.amazonaws.com
 github-production-user-asset-6210df.s3.amazonaws.com
-git pull
-git push
-git status
 global.ccs.amazonaws.com
 global.console.aws.amazon.com
 googlevideo.com
@@ -236,12 +188,10 @@ jtvnw.net
 kolektiva.social
 kqd06oflxl.execute-api.eu-west-1.amazonaws.com
 leagueoflegends.com
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 lithium.facebook.com
 loforo.com
 lol.riotgames.com
 lookaside.facebook.com
-# Loop through each file in the directory
 mads.amazon-adsystem.com
 mads-eu.amazon.com
 mag-eu.amazon.com
@@ -274,8 +224,6 @@ m.facebook.com
 mindly.social
 minecraft.net
 minecraftservices.com
-MIT License
-mkdir /home/$USER/addtlPiholeAdlist
 m.media-amazon.com
 mojang.com
 moxie-concierge.s3.amazonaws.com
@@ -293,7 +241,6 @@ music.amazon.com
 na12-binary-objects.s3.amazonaws.com
 nalandab2b-prod-elb01-1706732909.ap-south-1.elb.amazonaws.com
 nalanda-prod-assets.s3.ap-south-1.amazonaws.com
-#Navigate to the directory
 nerdculture.de
 netflix.com
 netflix.net
@@ -304,13 +251,10 @@ nflxvideo.net
 ocsp.r2m01.amazontrust.com
 ocsp.r2m02.amazontrust.com
 ocsp.rootca1.amazontrust.com
-of this software and associated documentation files (the "Software"), to deal
 ohai.social
 origin-amazonpay.amazon.in
 origin-completion.amazon.in
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 pawoo.net
-Permission is hereby granted, free of charge, to any person obtaining a copy
 phd.aws.amazon.com
 pinimg.com
 pin.it
@@ -405,12 +349,7 @@ skype-edf.akadns.net
 snapads.com
 snapchat.com
 snap-dev.net
-SOFTWARE.
 solucia.s3.us-east-2.amazonaws.com
-        sort -o $filename -u $filename
-sort -o combinedlist.txt -u combinedlist.txt
-# sort -o /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
-#Sort the file and get only unique entries
 spns-kong-alb-1531584902.ap-southeast-1.elb.amazonaws.com
 ssl-images-amazon.com
 static.siege-amazon.com
@@ -450,7 +389,6 @@ tilde.zone
 tinder.com
 tindersparks.com
 toot.community
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 tp.c95e7e602-frontier.amazon.in
 transient-eu.amazon.com
 troet.cafe

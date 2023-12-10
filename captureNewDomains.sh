@@ -54,6 +54,8 @@ done
 # echo "Sort the file and get only unique entries"
 # sort -o /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
+echo "cd into services directory again"
+cd /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
 
 echo "Get the domains from the pihole database"
 #Contact and get a single list
