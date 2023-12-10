@@ -29,6 +29,18 @@ cd  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
 directory="/home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/"
 echo "Directory to process: $directory"
 
+#How to take backup of pihole database
+#sudo cp /etc/pihole/pihole-FTL.db  /home/pi/backup/piholebackup/pihole-FTL_$(date +"%m-%y").db
+#above is done as a cron job
+
+#Using backup DB instead of live db
+echo "Get Latest backup file of pihole database"
+cd /home/$USER/backup/piholebackup
+latest_file=$(ls -lt --time=creation | grep ^- | head -n 1 | awk '{print $9}')
+echo "Latest backup file: $latest_file"
+fullPathofLatestFile="/backup/piholebackup/$latest_file"
+echo "Full path of latest backup file: $fullPathofLatestFile"
+
 
 # Loop through each file in the directory
 for file in "$directory"/*
@@ -39,8 +51,8 @@ do
         filename=$(basename "$file")
         echo "Current file name: $filename"
         echo "Get the domains from the pihole database for : $filename"
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%.$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%-$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "$fullPathofLatestFile"  "SELECT  DISTINCT  domain  FROM  domain_by_id  WHERE domain LIKE '%.$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "$fullPathofLatestFile"  "SELECT  DISTINCT  domain  FROM  domain_by_id  WHERE domain LIKE '%-$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
         echo "Sort the file and get only unique entries  for : $filename"
         sort -o $filename -u $filename
 
