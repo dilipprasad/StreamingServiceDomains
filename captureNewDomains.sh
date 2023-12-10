@@ -4,8 +4,8 @@
 echo "Creating Directory if missing"
 mkdir /home/$USER/addtlPiholeAdlist
 
-echo "Navigating to Directory /home/echo "$USER"/addtlPiholeAdlist"
-cd /home/echo "$USER"/addtlPiholeAdlist
+echo "Navigating to Directory /home/$USER/addtlPiholeAdlist"
+cd /home/$USER/addtlPiholeAdlist
 
 echo "Clone the repo"
 #Clone the repo
@@ -13,16 +13,20 @@ git clone https://github.com/dilipprasad/StreamingServiceDomains.git
 echo "Navigate to the directory /StreamingServiceDomains"
 cd StreamingServiceDomains/
 
+#Change to development branch
+echo "Changing to development branch"
+git checkout development
+
 #Pull if repo already exists
 echo "Pull if repo already exists"
 git pull
 
 echo "Navigate to the directory /StreamingServiceDomains/services"
 #Navigate to the directory
-cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/
+cd  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
 
 # Set the directory path
-directory="/home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/"
+directory="/home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/"
 echo "Directory to process: $directory"
 
 
@@ -35,8 +39,8 @@ do
         filename=$(basename "$file")
         echo "Current file name: $filename"
         echo "Get the domains from the pihole database for : $filename"
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%.$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
-        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%-$filename%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%.$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%-$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
         echo "Sort the file and get only unique entries  for : $filename"
         sort -o $filename -u $filename
 
@@ -45,18 +49,20 @@ done
 
 
 # echo "Get the domains from the pihole database"
-# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+# sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
 # echo "Sort the file and get only unique entries"
-# sort -o /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
+# sort -o /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
+echo "cd into services directory again"
+cd /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
 
 echo "Get the domains from the pihole database"
 #Contact and get a single list
-cat ./* > ../combinedlist.txt
+cat *.* > /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
-cd /home/echo "$USER"/addtlPiholeAdlist/StreamingServiceDomains
+cd /home/$USER/addtlPiholeAdlist/StreamingServiceDomains
 
 echo "Current Dir: $PWD"
 
@@ -74,3 +80,8 @@ git config --global user.name "Automated Script"
 git commit -m "Update Domains"
 git push
 echo "Pushed latest domain list successfully"
+
+echo "Sync with gravity sync"
+sudo gravity-sync update
+
+echo "end"
