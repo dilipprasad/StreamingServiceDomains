@@ -67,6 +67,7 @@ amazon.ae
 amazon.ca
 amazon.cn
 amazon.co.jp
+amazon.co.uk
 amazon.com
 amazon.com.au
 amazon.com.br
@@ -664,3 +665,5 @@ xqgoa1uunl.execute-api.us-west-2.amazonaws.com
 zee5imagerefresh.s3.ap-south-1.amazonaws.com
 z-na.amazon-adsystem.com
 z-na.associates-amazon.com
+amazonaws.com
+*.amazonaws.com
