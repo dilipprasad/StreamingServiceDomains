@@ -1,17 +1,12 @@
 apix.hotstar.com
-img1.hotstarext.com
-hses6-vod-cf.cdn.hotstar.com
-bifrost-api.hotstar.com
-hses5-vod-cf.cdn.hotstar.com 
-*.hotstar.com 
-*.cdn.hotstar.com 
-apix.hotstar.com
 bifrost-api.hotstar.com
 bifrost-api.hotstar.com.pihole0
 brand-img1.hotstarext.com
+*.cdn.hotstar.com 
 edge.hotstar-vod-hses6.aps1.dns.qwilted-cds.cqloud.com
 hf-apix.hotstar.com
 *.hotstar.com
+*.hotstar.com 
 hotstar.com
 hses1.hotstar.com
 hses2.hotstar.com
@@ -20,6 +15,7 @@ hses4.hotstar.com
 hses5.hotstar.com
 hses5-vod-airtel.cdn.hotstar.com
 hses5-vod-cf.cdn.hotstar.com
+hses5-vod-cf.cdn.hotstar.com 
 hses6.hotstar.com
 hses6.hotstar.com.pihole0
 hses6-vod-airtel.cdn.hotstar.com
