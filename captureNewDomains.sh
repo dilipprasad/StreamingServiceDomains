@@ -3,7 +3,7 @@
 #Create Directory if missing
 echo "Creating Directory if missing"
 mkdir /home/$USER/EXECUTIONSCRIPTS/
-
+cd /home/$USER/EXECUTIONSCRIPTS/
 
 echo "Clone the repo"
 #Clone the repo
@@ -74,7 +74,7 @@ cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services
 echo "Get the domains from the pihole database - build combinedlist file"
 echo "Current dir : ${PWD}"
 #Contact and get a single list
-sudo cat * > /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/combinedlist.txt
+sudo cat * >> /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
 cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/
@@ -83,9 +83,6 @@ echo "Current Dir: $PWD"
 
 echo "Sort the file and get only unique entries"
 #Sort the file and get only unique entries
-#sudo sort -o combinedlist.txt 
-#sudo -u combinedlist.txt
-
 sort -u combinedlist.txt  -o combinedlist.sorted
 mv combinedlist.sorted combinedlist.txt
 
