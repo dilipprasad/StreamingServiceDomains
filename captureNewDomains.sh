@@ -54,7 +54,10 @@ cd "$streamingServiceDomains/services/"
 directory="$streamingServiceDomains/services"
 echo "Directory to process: $directory"
 
-# Loop through each file in the directory
+echo "Set Permissions"
+sudo chmod -R 777  $directory
+
+echo " Loop through each file in the directory for domains"
 for file in "$directory"/*
 do
     # Check if the file is a regular file
@@ -63,12 +66,12 @@ do
         filename=$(basename "$file")
         echo "Current file name: $filename"
         echo "Get the domains from the pihole database for : $filename"
-        sudo sqlite3 "$fullPathofLatestFile"  "SELECT  DISTINCT  domain  FROM  domain_by_id  WHERE domain LIKE '%.$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
-        sudo sqlite3 "$fullPathofLatestFile"  "SELECT  DISTINCT  domain  FROM  domain_by_id  WHERE domain LIKE '%-$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+        sudo sqlite3 "$fullPathofLatestFile"  "SELECT  DISTINCT  domain  FROM  domain_by_id  WHERE domain LIKE '%.$filename%';"  >>  "$streamingServiceDomains/services/$filename"
+        sudo sqlite3 "$fullPathofLatestFile"  "SELECT  DISTINCT  domain  FROM  domain_by_id  WHERE domain LIKE '%-$filename%';"  >>  "$streamingServiceDomains/services/$filename"
 	echo "Current dir: ${PWD}"
         echo "Sort the file and get only unique entries  for : $filename"
-        sort -u "$filename" -o "${filename}.sorted"
-	mv "${filename}.sorted" "$filename"
+        sudo sort -u "$filename" -o "${filename}.sorted"
+	sudo mv -f  "${filename}.sorted" "$filename"
 
     fi
 done
@@ -97,7 +100,7 @@ for file in "$directory"/*; do
     done < "$file"
 
     # Replace the original file with the temporary file
-    mv "$temp_file" "$file"
+    mv -f "$temp_file" "$file"
   fi
 done
 echo "completed wildcard generation"
