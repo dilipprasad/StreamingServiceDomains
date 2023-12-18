@@ -62,6 +62,41 @@ do
 done
 
 
+
+
+
+echo "Generate wildcard version of the domains found"
+# Process each file in the folder
+for file in "$directory"/*; do
+  # Check if it's a regular file
+  if [ -f "$file" ]; then
+    # Create a temporary file for appending wildcard domains
+    temp_file=$(mktemp)
+
+    # Process each line in the file
+    while IFS= read -r domain; do
+      # Skip empty lines or lines starting with #
+      if [[ -n "$domain" && "$domain" != "#"* ]]; then
+        # Append original and wildcard domain to the temporary file
+        echo "$domain" >> "$temp_file"
+        echo "*.$domain" >> "$temp_file"
+      fi
+    done < "$file"
+
+    # Replace the original file with the temporary file
+    mv "$temp_file" "$file"
+  fi
+done
+
+
+
+
+
+
+
+
+
+
 # echo "Get the domains from the pihole database"
 # sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
