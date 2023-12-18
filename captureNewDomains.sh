@@ -1,16 +1,27 @@
-#!/bin/bash
+\#!/bin/bash
+
+executionScriptFolder=/home/$USER/EXECUTIONSCRIPTS/
+streamingServiceDomains="$executionStriptsFolder/StreamingServiceDomains"
+piholeBackup=/home/$USER/backup/piholebackup
+
+echo "Paths"
+echo "executionScriptFolder: $executionScriptFolder"
+echo "streamingServiceDomains:  $streamingServiceDomains"
+echo "piholeBackup: $piholeBackup"
 
 #Create Directory if missing
 echo "Creating Directory if missing"
-mkdir /home/$USER/EXECUTIONSCRIPTS/
-cd /home/$USER/EXECUTIONSCRIPTS/
+mkdir $executionScriptFolder
+cd $executionScriptFolder
+echo "$PWD"
 
 echo "Clone the repo"
 #Clone the repo
 sudo git clone https://github.com/dilipprasad/StreamingServiceDomains.git
 
 echo "Navigate to the directory /StreamingServiceDomains"
-cd StreamingServiceDomains/
+cd $streamingServiceDomains
+echo "$PWD"
 
 #Change to development branch
 echo "Changing to development branch"
@@ -27,19 +38,20 @@ echo "Git Completed"
 
 #Using backup DB instead of live db
 echo "Get Latest backup file of pihole database"
-cd /home/$USER/backup/piholebackup
+cd $piholeBackup
+echo "$PWD"
 latest_file=$(ls -lt --time=creation | grep ^- | head -n 1 | awk '{print $9}')
 echo "Latest backup file: $latest_file"
-fullPathofLatestFile="/home/$USER/backup/piholebackup/$latest_file"
+fullPathofLatestFile="$piholeBackup/$latest_file"
 echo "Full path of latest backup file: $fullPathofLatestFile"
 
 
 echo "Navigate to the directory /StreamingServiceDomains/services"
 #Navigate to the directory
-cd  /home/$USER/StreamingServiceDomains/services/
+cd "$streamingServiceDomains/services/"
 
 # Set the directory path
-directory="/home/$USER/StreamingServiceDomains/services/"
+directory="$streamingServiceDomains/services"
 echo "Directory to process: $directory"
 
 # Loop through each file in the directory
@@ -100,17 +112,16 @@ echo "completed wildcard generation"
 # sort -o /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
 echo "cd into StreamingServicesDomain directory "
-cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/
+cd $streamingServiceDomains
+echo "$PWD"
 
 echo "Provide permissions"
-sudo chown $USER: /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/
-
+sudo chown $USER: $streamingServiceDomains
 
 echo "Get the domains from the pihole database - build combinedlist file"
 echo "Current dir : ${PWD}"
 #Contact and get a single list
-sudo cat services/* > /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/combinedlist.txt
-
+sudo cat services/* > "$streamingServiceDomains/combinedlist.txt"
 
 echo "Current Dir: $PWD"
 
@@ -120,7 +131,7 @@ sort -u combinedlist.txt  -o combinedlist.sorted
 mv combinedlist.sorted combinedlist.txt
 
 
-cd "/home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains"
+cd "$streamingServiceDomains"
 echo "Current Dir: $PWD"
 echo "Commit and push git changes"
 #Commit and push git changes
