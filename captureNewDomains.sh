@@ -1,7 +1,7 @@
 \#!/bin/bash
 
 executionScriptFolder=/home/$USER/EXECUTIONSCRIPTS/
-streamingServiceDomains="$executionStriptsFolder/StreamingServiceDomains"
+streamingServiceDomains="$executionScriptFolder/StreamingServiceDomains"
 piholeBackup=/home/$USER/backup/piholebackup
 
 echo "Paths"
@@ -20,7 +20,7 @@ echo "Clone the repo"
 sudo git clone https://github.com/dilipprasad/StreamingServiceDomains.git
 
 echo "Navigate to the directory /StreamingServiceDomains"
-cd $streamingServiceDomains
+cd "$streamingServiceDomains"
 echo "$PWD"
 
 #Change to development branch
