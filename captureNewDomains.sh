@@ -2,7 +2,7 @@
 
 #Create Directory if missing
 echo "Creating Directory if missing"
-mkdir /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains
+mkdir /home/$USER/EXECUTIONSCRIPTS/
 #mkdir /home/$USER/addtlPiholeAdlist
 
 #echo "Navigating to Directory /home/$USER/addtlPiholeAdlist"
