@@ -72,9 +72,9 @@ done
 echo "cd into services directory again"
 cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services
 
-echo "Get the domains from the pihole database"
+echo "Get the domains from the pihole database - build combinedlist file"
 #Contact and get a single list
-sudo cat *.* > /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services/combinedlist.txt
+sudo cat *.* > /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
 cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services
