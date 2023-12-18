@@ -36,10 +36,10 @@ echo "Full path of latest backup file: $fullPathofLatestFile"
 
 echo "Navigate to the directory /StreamingServiceDomains/services"
 #Navigate to the directory
-cd  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
+cd  /home/$USER/StreamingServiceDomains/services/
 
 # Set the directory path
-directory="/home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/"
+directory="/home/$USER/StreamingServiceDomains/services/"
 echo "Directory to process: $directory"
 
 # Loop through each file in the directory
