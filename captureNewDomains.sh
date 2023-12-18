@@ -21,13 +21,6 @@ git checkout development
 echo "Pull if repo already exists"
 git pull
 
-echo "Navigate to the directory /StreamingServiceDomains/services"
-#Navigate to the directory
-cd  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
-
-# Set the directory path
-directory="/home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/"
-echo "Directory to process: $directory"
 
 #How to take backup of pihole database
 #sudo cp /etc/pihole/pihole-FTL.db  /home/pi/backup/piholebackup/pihole-FTL_$(date +"%m-%y").db
@@ -38,9 +31,17 @@ echo "Get Latest backup file of pihole database"
 cd /home/$USER/backup/piholebackup
 latest_file=$(ls -lt --time=creation | grep ^- | head -n 1 | awk '{print $9}')
 echo "Latest backup file: $latest_file"
-fullPathofLatestFile="/backup/piholebackup/$latest_file"
+fullPathofLatestFile="/home/$USER/backup/piholebackup/$latest_file"
 echo "Full path of latest backup file: $fullPathofLatestFile"
 
+
+echo "Navigate to the directory /StreamingServiceDomains/services"
+#Navigate to the directory
+cd  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
+
+# Set the directory path
+directory="/home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/"
+echo "Directory to process: $directory"
 
 # Loop through each file in the directory
 for file in "$directory"/*
@@ -53,8 +54,10 @@ do
         echo "Get the domains from the pihole database for : $filename"
         sudo sqlite3 "$fullPathofLatestFile"  "SELECT  DISTINCT  domain  FROM  domain_by_id  WHERE domain LIKE '%.$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
         sudo sqlite3 "$fullPathofLatestFile"  "SELECT  DISTINCT  domain  FROM  domain_by_id  WHERE domain LIKE '%-$filename%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/$filename
+	echo "Current dir: ${PWD}"
         echo "Sort the file and get only unique entries  for : $filename"
-        sort -o $filename -u $filename
+        sort -u "$filename" -o "${filename}.sorted"
+	mv "${filename}.sorted" "$filename"
 
     fi
 done
@@ -67,30 +70,31 @@ done
 # sort -o /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
 echo "cd into services directory again"
-cd /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/
+cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services
 
 echo "Get the domains from the pihole database"
 #Contact and get a single list
-cat *.* > /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/combinedlist.txt
+sudo cat *.* > /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services/combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
-cd /home/$USER/addtlPiholeAdlist/StreamingServiceDomains
+cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services
 
 echo "Current Dir: $PWD"
 
 echo "Sort the file and get only unique entries"
 #Sort the file and get only unique entries
-sort -o combinedlist.txt -u combinedlist.txt
+sudo sort -o combinedlist.txt -u combinedlist.txt
 
+cd "/home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains"
 echo "Current Dir: $PWD"
 echo "Commit and push git changes"
 #Commit and push git changes
-git add .
-git status
-git config --global user.email "dilipprasad87@gmail.com"
-git config --global user.name "Automated Script"
-git commit -m "Update Domains"
-git push
+sudo git add .
+sudo git status
+sudo git config --global user.email "dilipprasad87@gmail.com"
+sudo git config --global user.name "Automated Script"
+sudo git commit -m "Update Domains"
+sudo git push
 echo "Pushed latest domain list successfully"
 
 echo "Sync with gravity sync"
