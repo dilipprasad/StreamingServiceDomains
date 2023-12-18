@@ -3,24 +3,22 @@
 #Create Directory if missing
 echo "Creating Directory if missing"
 mkdir /home/$USER/EXECUTIONSCRIPTS/
-#mkdir /home/$USER/addtlPiholeAdlist
 
-#echo "Navigating to Directory /home/$USER/addtlPiholeAdlist"
-#cd /home/$USER/addtlPiholeAdlist
 
 echo "Clone the repo"
 #Clone the repo
-git clone https://github.com/dilipprasad/StreamingServiceDomains.git
+sudo git clone https://github.com/dilipprasad/StreamingServiceDomains.git
+
 echo "Navigate to the directory /StreamingServiceDomains"
 cd StreamingServiceDomains/
 
 #Change to development branch
 echo "Changing to development branch"
-git checkout development
+sudo git checkout development
 
 #Pull if repo already exists
 echo "Pull if repo already exists"
-git pull
+sudo git pull
 
 
 #How to take backup of pihole database
