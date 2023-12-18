@@ -68,16 +68,18 @@ done
 # echo "Sort the file and get only unique entries"
 # sort -o /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
-echo "cd into services directory again"
-cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services
+echo "cd into StreamingServicesDomain directory "
+cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/
+
+echo "Provide permissions"
+sudo chown $USER: /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/
+
 
 echo "Get the domains from the pihole database - build combinedlist file"
 echo "Current dir : ${PWD}"
 #Contact and get a single list
-sudo cat * >> /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/combinedlist.txt
+sudo cat services/* > /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/combinedlist.txt
 
-echo "Navigate to the parent directory /StreamingServiceDomains"
-cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/
 
 echo "Current Dir: $PWD"
 
