@@ -2,10 +2,11 @@
 
 #Create Directory if missing
 echo "Creating Directory if missing"
-mkdir /home/$USER/addtlPiholeAdlist
+mkdir /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains
+#mkdir /home/$USER/addtlPiholeAdlist
 
-echo "Navigating to Directory /home/$USER/addtlPiholeAdlist"
-cd /home/$USER/addtlPiholeAdlist
+#echo "Navigating to Directory /home/$USER/addtlPiholeAdlist"
+#cd /home/$USER/addtlPiholeAdlist
 
 echo "Clone the repo"
 #Clone the repo
