@@ -73,11 +73,12 @@ echo "cd into services directory again"
 cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services
 
 echo "Get the domains from the pihole database - build combinedlist file"
+echo "Current dir : ${PWD}"
 #Contact and get a single list
-sudo cat *.* > /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/combinedlist.txt
+sudo cat * > /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/combinedlist.txt
 
 echo "Navigate to the parent directory /StreamingServiceDomains"
-cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/services
+cd /home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains/
 
 echo "Current Dir: $PWD"
 
