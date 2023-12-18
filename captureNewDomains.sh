@@ -19,7 +19,7 @@ sudo git checkout development
 #Pull if repo already exists
 echo "Pull if repo already exists"
 sudo git pull
-
+echo "Git Completed"
 
 #How to take backup of pihole database
 #sudo cp /etc/pihole/pihole-FTL.db  /home/pi/backup/piholebackup/pihole-FTL_$(date +"%m-%y").db
@@ -70,6 +70,7 @@ echo "Generate wildcard version of the domains found"
 for file in "$directory"/*; do
   # Check if it's a regular file
   if [ -f "$file" ]; then
+    echo "Processing wildcard for file $file"
     # Create a temporary file for appending wildcard domains
     temp_file=$(mktemp)
 
@@ -87,11 +88,7 @@ for file in "$directory"/*; do
     mv "$temp_file" "$file"
   fi
 done
-
-
-
-
-
+echo "completed wildcard generation"
 
 
 
@@ -99,7 +96,6 @@ done
 
 # echo "Get the domains from the pihole database"
 # sudo sqlite3 "/etc/pihole/pihole-FTL.db"  "SELECT DISTINCT domain from queries WHERE domain like '%amazon%';"  >>  /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
-
 # echo "Sort the file and get only unique entries"
 # sort -o /home/$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo -u /home$USER/addtlPiholeAdlist/StreamingServiceDomains/services/primevideo
 
