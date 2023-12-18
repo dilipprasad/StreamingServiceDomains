@@ -84,7 +84,12 @@ echo "Current Dir: $PWD"
 
 echo "Sort the file and get only unique entries"
 #Sort the file and get only unique entries
-sudo sort -o combinedlist.txt -u combinedlist.txt
+#sudo sort -o combinedlist.txt 
+#sudo -u combinedlist.txt
+
+sort -u combinedlist.txt  -o combinedlist.sorted
+mv combinedlist.sorted combinedlist.txt
+
 
 cd "/home/$USER/EXECUTIONSCRIPTS/StreamingServiceDomains"
 echo "Current Dir: $PWD"
