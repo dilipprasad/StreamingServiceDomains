@@ -1,5 +1,7 @@
 \#!/bin/bash
 
+USER=${USER:-$(whoami)}
+
 executionScriptFolder=/home/$USER/EXECUTIONSCRIPTS/
 streamingServiceDomains="$executionScriptFolder/StreamingServiceDomains"
 piholeBackup=/home/$USER/backup/piholebackup
